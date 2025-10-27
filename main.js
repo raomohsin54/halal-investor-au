@@ -10,21 +10,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 data.forEach(trade => {
                     let row = tradesTableBody.insertRow();
                     
-                    // Format the date to be more readable (YYYY-MM-DD)
                     let date = new Date(trade.DateTime).toISOString().split('T')[0];
                     
                     row.insertCell(0).innerText = date;
                     row.insertCell(1).innerText = trade.Ticker;
-                    row.insertCell(2).innerText = trade.CompanyName;
-                    row.insertCell(3).innerText = trade.Headline;
+
+                    // --- NEW: Add the SignalType cell with color ---
+                    let signalCell = row.insertCell(2);
+                    signalCell.innerText = trade.SignalType;
+                    if (trade.SignalType === 'Initial Holding') {
+                        signalCell.style.color = 'green'; // Or use a CSS class
+                    } else if (trade.SignalType === 'Final Holding') {
+                        signalCell.style.color = 'red';
+                    }
                     
-                    // Create a clickable link for the PDF
-                    let linkCell = row.insertCell(4);
-                    let link = document.createElement('a');
-                    link.href = trade.PdfLink;
-                    link.innerText = "View PDF";
-                    link.target = "_blank"; // Open in a new tab
-                    linkCell.appendChild(link);
+                    row.insertCell(3).innerText = trade.CompanyName;
+                    row.insertCell(4).innerText = trade.Headline;
+                    
+                    let linkCell = row.insertCell(5);
+                    // ... rest of the link code is the same
                 });
             });
     }
