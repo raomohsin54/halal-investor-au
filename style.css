@@ -1,12 +1,49 @@
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; background-color: #f4f4f9; color: #333; }
-nav { background-color: #fff; padding: 1rem; border-bottom: 1px solid #ddd; text-align: center; }
-nav a { text-decoration: none; color: #007bff; margin: 0 1rem; font-weight: bold; }
-nav a.active { border-bottom: 2px solid #007bff; }
-header { text-align: center; padding: 2rem 1rem; background-color: #fff; border-bottom: 1px solid #ddd; }
-main { padding: 1rem; }
-table { width: 100%; border-collapse: collapse; background-color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #ddd; }
-th { background-color: #f8f9fa; }
-tbody tr:hover { background-color: #f1f1f1; }
-a { color: #007bff; text-decoration: none; }
-a:hover { text-decoration: underline; }
+/* Add these new styles to the end of style.css */
+.dashboard-cards {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 320px;
+    border-top: 5px solid #ddd;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.card .ticker {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0056b3;
+    margin: 0.5rem 0;
+}
+
+.card .value {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.card .director-name {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.card.buy { border-top-color: #28a745; }
+.card.buy .value { color: #28a745; }
+
+.card.sell { border-top-color: #dc3545; }
+.card.sell .value { color: #dc3545; }

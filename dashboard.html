@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Insider Dashboard - Halal Investor AU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Halal ETFs</a>
+        <a href="insider-trades.html">Insider Trades</a>
+        <a href="dashboard.html" class="active">AI Dashboard</a>
+    </nav>
+    <header>
+        <h1>AI-Powered Insider Activity</h1>
+        <p id="last-updated">Analyzing today's top director trades...</p>
+    </header>
+    <main>
+        <div class="dashboard-cards">
+            <div id="top-buy-card" class="card buy"></div>
+            <div id="top-sell-card" class="card sell"></div>
+        </div>
+
+        <h2>Recently Analyzed Trades</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ticker</th>
+                    <th>Director Name</th>
+                    <th>Trade Type</th>
+                    <th>Value</th>
+                    <th>Announcement</th>
+                </tr>
+            </thead>
+            <tbody id="recent-trades-table">
+                <!-- Recent trades will be loaded here -->
+            </tbody>
+        </table>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>
