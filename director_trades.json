@@ -96,6 +96,14 @@
         "SignalType":"Change"
     },
     {
+        "Ticker":"MFD",
+        "CompanyName":"MAYFIELD CHILDCARE LIMITED",
+        "DateTime":"2025-10-29T08:39:58+1100",
+        "Headline":"Notice of initial substantial holder",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r63r414dsq0q.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
         "Ticker":"BWF",
         "CompanyName":"BLACKWALL LIMITED",
         "DateTime":"2025-10-29T08:28:48+1100",
@@ -150,6 +158,14 @@
         "Headline":"Change of Director's Interest Notice",
         "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r5wzt4gkkl90.pdf",
         "SignalType":"Change"
+    },
+    {
+        "Ticker":"BNZ",
+        "CompanyName":"BENZ MINING CORP.",
+        "DateTime":"2025-10-28T20:00:53+1100",
+        "Headline":"Benz Acquires Final 25% Interest in Eastmain and Ruby Hill",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5n2pyr3jmnc.pdf",
+        "SignalType":"Final Holding"
     },
     {
         "Ticker":"TOK",
@@ -384,6 +400,14 @@
         "SignalType":"Change"
     },
     {
+        "Ticker":"PNV",
+        "CompanyName":"POLYNOVO LIMITED",
+        "DateTime":"2025-10-28T15:36:01+1100",
+        "Headline":"AGM Final Meeting Results",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r51yfyr9vgn0.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
         "Ticker":"PLY",
         "CompanyName":"PLAYSIDE STUDIOS LIMITED",
         "DateTime":"2025-10-28T14:53:56+1100",
@@ -528,6 +552,14 @@
         "SignalType":"Change"
     },
     {
+        "Ticker":"AR1",
+        "CompanyName":"AUSTRAL RESOURCES AUSTRALIA LTD",
+        "DateTime":"2025-10-28T08:32:19+1100",
+        "Headline":"Notice of initial substantial holder",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4066c516t8p.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
         "Ticker":"PLC",
         "CompanyName":"PREMIER1 LITHIUM LIMITED",
         "DateTime":"2025-10-28T08:28:09+1100",
@@ -542,6 +574,22 @@
         "Headline":"Change of Director's Interest Notice - S Evans",
         "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r3xjvw7q52xk.pdf",
         "SignalType":"Change"
+    },
+    {
+        "Ticker":"LRD",
+        "CompanyName":"LORD RESOURCES LIMITED",
+        "DateTime":"2025-10-28T08:23:49+1100",
+        "Headline":"Final Results from Ilgarari and Entitlement Issue Update",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r3xgs936pkvs.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"SIX",
+        "CompanyName":"SPRINTEX LIMITED",
+        "DateTime":"2025-10-28T08:13:04+1100",
+        "Headline":"SIX Hits Final Commissioning Phase of $16m MEST Contract",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r3r0679jffwd.pdf",
+        "SignalType":"Final Holding"
     },
     {
         "Ticker":"MGX",
@@ -582,6 +630,22 @@
         "Headline":"Change of Director's Interest Notice",
         "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r34w58ps1lrs.pdf",
         "SignalType":"Change"
+    },
+    {
+        "Ticker":"AR1",
+        "CompanyName":"AUSTRAL RESOURCES AUSTRALIA LTD",
+        "DateTime":"2025-10-27T16:26:22+1100",
+        "Headline":"Notice of initial substantial holder",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r3301jq0f81y.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"AR1",
+        "CompanyName":"AUSTRAL RESOURCES AUSTRALIA LTD",
+        "DateTime":"2025-10-27T16:24:32+1100",
+        "Headline":"Notice of initial substantial holder",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r32nbbpd5g6l.pdf",
+        "SignalType":"Initial Holding"
     },
     {
         "Ticker":"AOV",
@@ -749,6 +813,14 @@
         "DateTime":"2025-10-27T09:56:44+1100",
         "Headline":"Final Director's Interest Notice - IK",
         "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2dr4j4q1f3y.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"OVT",
+        "CompanyName":"OVANTI LIMITED",
+        "DateTime":"2025-10-27T09:22:34+1100",
+        "Headline":"OVT AT MONEY2020 TO FINALISE COMMERCIAL PARTNERSHIPS",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r269tcrf36l9.pdf",
         "SignalType":"Final Holding"
     },
     {
