@@ -1,35 +1,51 @@
-:root { /* CSS variables for easy branding */
-    --primary-color: #0056b3; --border-color: #dee2e6; --background-color: #f8f9fa;
-    --text-color: #343a40; --buy-color: #28a745; --sell-color: #dc3545; --other-color: #6c757d;
+/* ================================================================== */
+/*          Add these styles to the BOTTOM of your style.css          */
+/* ================================================================== */
+
+/* Pro Signup Section Styles */
+.pro-signup-section {
+    background-color: #fff;
+    padding: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid var(--border-color);
 }
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; margin: 0; background-color: var(--background-color); color: var(--text-color); }
-.container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
-nav { background-color: #fff; padding: 1rem; border-bottom: 1px solid var(--border-color); text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-nav a { text-decoration: none; color: var(--primary-color); margin: 0 1.5rem; font-weight: 600; padding-bottom: 0.5rem; }
-nav a.active { border-bottom: 3px solid var(--primary-color); }
-header { text-align: center; padding: 2rem 1rem; }
-.hero { background-color: #fff; border-bottom: 1px solid var(--border-color); padding: 4rem 1rem; }
-.hero h1 { font-size: 2.5rem; }
-.hero p { font-size: 1.2rem; color: #6c757d; }
-.cta-button { display: inline-block; background-color: var(--primary-color); color: #fff; padding: 0.8rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 1rem; }
-.section-title { text-align: center; margin-top: 3rem; margin-bottom: 1.5rem; }
-table { width: 100%; border-collapse: collapse; background-color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden; }
-th, td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--border-color); }
-th { background-color: #f8f9fa; font-weight: 600; }
-tbody tr:hover { background-color: #f1f1f1; }
-a { color: var(--primary-color); text-decoration: none; }
-a:hover { text-decoration: underline; }
-.signal { padding: 0.25em 0.6em; font-size: 0.85em; font-weight: 700; border-radius: 0.25rem; color: #fff; }
-.signal-change { background-color: var(--other-color); }
-.signal-initial-holding { background-color: var(--buy-color); }
-.signal-final-holding { background-color: var(--sell-color); }
-.dashboard-cards { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2.5rem; }
-.card { background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; width: 350px; border-top: 5px solid; }
-.card h2 { margin-top: 0; font-size: 1.1rem; color: #666; text-transform: uppercase; }
-.card .ticker { font-size: 2rem; font-weight: bold; color: var(--primary-color); margin: 0.5rem 0; }
-.card .value { font-size: 2.2rem; font-weight: 700; margin: 0.5rem 0; }
-.card .director-name { font-size: 0.9rem; color: #777; }
-.card.buy { border-top-color: var(--buy-color); }
-.card.buy .value { color: var(--buy-color); }
-.card.sell { border-top-color: var(--sell-color); }
-.card.sell .value { color: var(--sell-color); }
+
+.pro-signup-section h2 {
+    margin-top: 0;
+}
+
+.pro-signup-section form {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap; /* Allows it to look good on mobile */
+}
+
+.pro-signup-section input[type="email"] {
+    padding: 0.8rem 1rem;
+    width: 300px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.pro-signup-section button {
+    background-color: var(--buy-color); /* Green for action */
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.pro-signup-section button:hover {
+    background-color: #218838; /* A slightly darker green on hover */
+}
