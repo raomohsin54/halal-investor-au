@@ -3,36 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insider Trades - Halal Investor AU</title>
+    <title>Insider Trades - Market Signals AU</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <a href="/halal-investor-au/index.html">Halal ETFs</a>
-        <a href="/halal-investor-au/insider-trades.html" class="active">Insider Trades</a>
-        <a href="/halal-investor-au/dashboard.html">AI Dashboard</a>
+        <a href="index.html">Halal ETFs</a>
+        <a href="insider-trades.html" class="active">Insider Trades</a>
+        <a href="dashboard.html">AI Dashboard</a>
     </nav>
     <header>
         <h1>ASX Director Trades</h1>
         <p>Daily updates on on-market trades by company directors.</p>
     </header>
-    <main>
+    <div class="container">
         <table>
             <thead>
                 <tr>
                     <th>Date</th>
                     <th>Ticker</th>
-                    <th>Signal</th> <!-- ADD THIS LINE -->
+                    <th>Signal</th>
                     <th>Company Name</th>
                     <th>Headline</th>
                     <th>Announcement</th>
                 </tr>
             </thead>
-            <tbody id="trades-table-body">
-                <!-- Data will be loaded here by JavaScript -->
-            </tbody>
+            <tbody id="trades-table-body"></tbody>
         </table>
-    </main>
-    <script src="main.js"></script>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
