@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-10-29T02:51:01.222912",
+    "last_updated": "2025-10-29T03:39:04.367957",
     "total_trades_analyzed": 5,
     "top_buy_of_the_day": {
         "Ticker": "FOS",
@@ -16,6 +16,45 @@
     },
     "top_sell_of_the_day": null,
     "recent_trades": [
+        {
+            "Ticker": "YRL",
+            "CompanyName": "YANDAL RESOURCES LIMITED",
+            "DateTime": "2025-10-29T14:36:00+1100",
+            "Headline": "Change of Director's Interest Notice - Chris Oorschot",
+            "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r70370x1shfw.pdf",
+            "SignalType": "Change",
+            "director_name": "MR CHRISTOPHER OORSCHOT",
+            "trade_type": "Other",
+            "number_of_shares": 19231,
+            "price_per_share": 0.11,
+            "total_value": 2115.0
+        },
+        {
+            "Ticker": "YRL",
+            "CompanyName": "YANDAL RESOURCES LIMITED",
+            "DateTime": "2025-10-29T14:35:05+1100",
+            "Headline": "Change of Director's Interest Notice - Greg Evans",
+            "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r700yygzgdq9.pdf",
+            "SignalType": "Change",
+            "director_name": "MR GREGORY RICHARD EVANS",
+            "trade_type": "Buy",
+            "number_of_shares": 192308,
+            "price_per_share": 0.11,
+            "total_value": 21154.0
+        },
+        {
+            "Ticker": "AXP",
+            "CompanyName": "AXP ENERGY LIMITED",
+            "DateTime": "2025-10-29T13:59:45+1100",
+            "Headline": "Change of Director's Interest Notice",
+            "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r6yg4r6h1s0f.pdf",
+            "SignalType": "Change",
+            "director_name": "James Dack",
+            "trade_type": "Other",
+            "number_of_shares": 500000,
+            "price_per_share": 0.0,
+            "total_value": 0.0
+        },
         {
             "Ticker": "SCP",
             "CompanyName": "SCALARE PARTNERS HOLDINGS LIMITED",
@@ -41,45 +80,6 @@
             "number_of_shares": 412634,
             "price_per_share": 0.28,
             "total_value": 115537.49
-        },
-        {
-            "Ticker": "ORA",
-            "CompanyName": "ORORA LIMITED",
-            "DateTime": "2025-10-29T12:08:05+1100",
-            "Headline": "Change of Director's Interest Notice - ORA",
-            "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r6s4zlxs6f8r.pdf",
-            "SignalType": "Change",
-            "director_name": "BRIAN PHILLIP LOWE",
-            "trade_type": "Buy",
-            "number_of_shares": 794392,
-            "price_per_share": 0.0,
-            "total_value": 0.0
-        },
-        {
-            "Ticker": "AFI",
-            "CompanyName": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
-            "DateTime": "2025-10-29T11:21:54+1100",
-            "Headline": "Corrected - Appendix 3Y Change of Directors Interest Notice",
-            "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r6ps4rn3h827.pdf",
-            "SignalType": "Change",
-            "director_name": "Mr Richard Murray",
-            "trade_type": "Other",
-            "number_of_shares": 0,
-            "price_per_share": 0.0,
-            "total_value": 0.0
-        },
-        {
-            "Ticker": "AFI",
-            "CompanyName": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
-            "DateTime": "2025-10-29T11:13:24+1100",
-            "Headline": "Appendix 3Y - Change of Directors Interest Notice x2",
-            "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r6pj4qg1qzdl.pdf",
-            "SignalType": "Change",
-            "director_name": "REBECCA DEE-BRADBURY",
-            "trade_type": "Buy",
-            "number_of_shares": 6080,
-            "price_per_share": 7.35,
-            "total_value": 44688.0
         }
     ]
 }

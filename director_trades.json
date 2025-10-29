@@ -1,5 +1,29 @@
 [
     {
+        "Ticker":"YRL",
+        "CompanyName":"YANDAL RESOURCES LIMITED",
+        "DateTime":"2025-10-29T14:36:00+1100",
+        "Headline":"Change of Director's Interest Notice - Chris Oorschot",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r70370x1shfw.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"YRL",
+        "CompanyName":"YANDAL RESOURCES LIMITED",
+        "DateTime":"2025-10-29T14:35:05+1100",
+        "Headline":"Change of Director's Interest Notice - Greg Evans",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r700yygzgdq9.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"AXP",
+        "CompanyName":"AXP ENERGY LIMITED",
+        "DateTime":"2025-10-29T13:59:45+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r6yg4r6h1s0f.pdf",
+        "SignalType":"Change"
+    },
+    {
         "Ticker":"SCP",
         "CompanyName":"SCALARE PARTNERS HOLDINGS LIMITED",
         "DateTime":"2025-10-29T12:54:20+1100",
@@ -822,13 +846,5 @@
         "Headline":"OVT AT MONEY2020 TO FINALISE COMMERCIAL PARTNERSHIPS",
         "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r269tcrf36l9.pdf",
         "SignalType":"Final Holding"
-    },
-    {
-        "Ticker":"COD",
-        "CompanyName":"CODA MINERALS LTD",
-        "DateTime":"2025-10-27T09:12:14+1100",
-        "Headline":"Change of Director's Interest Notice x 3",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r23zdjtgjcs0.pdf",
-        "SignalType":"Change"
     }
 ]
