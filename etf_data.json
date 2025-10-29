@@ -3,6 +3,30 @@
         "Ticker": "ISLM",
         "CompanyName": "Hejaz Equities Fund (Managed Fund)",
         "MER": "0.99%",
-        "ProviderWebsite": "https://www.hejazi.com.au/islamic-etf/"
+        "ProviderWebsite": "https://www.hejazfs.com.au/investment/hejaz-equities-fund-managed-fund-asx-islm/"
+    },
+    {
+        "Ticker": "SKUK",
+        "CompanyName": "Hejaz Sukuk Active ETF (Managed Fund)",
+        "MER": "0.79%",
+        "ProviderWebsite": "https://www.hejazfs.com.au/investment/hejaz-sukuk-active-etf-managed-fund-asx-skuk/"
+    },
+    {
+        "Ticker": "HJZP",
+        "CompanyName": "Hejaz Property Fund (Managed Fund)",
+        "MER": "0.99%",
+        "ProviderWebsite": "https://www.hejazfs.com.au/investment/hejaz-property-fund-managed-fund-asx-hjzp/"
+    },
+    {
+        "Ticker": "HJHI",
+        "CompanyName": "Hejaz High Income Active ETF",
+        "MER": "0.99%",
+        "ProviderWebsite": "https://www.hejazfs.com.au/investment/hejaz-high-income-active-etf-asx-hjhi/"
+    },
+    {
+        "Ticker": "HHIF",
+        "CompanyName": "Hejaz High Innovation Active ETF",
+        "MER": "1.25%",
+        "ProviderWebsite": "https://www.hejazfs.com.au/investment/hejaz-high-innovation-active-etf-asx-hhif/"
     }
 ]

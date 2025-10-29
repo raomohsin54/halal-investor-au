@@ -1,18 +1,18 @@
 {
-    "last_updated": "2025-10-29T02:33:53.500811",
+    "last_updated": "2025-10-29T02:51:01.222912",
     "total_trades_analyzed": 5,
     "top_buy_of_the_day": {
-        "Ticker": "AFI",
-        "CompanyName": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
-        "DateTime": "2025-10-29T11:13:24+1100",
-        "Headline": "Appendix 3Y - Change of Directors Interest Notice x2",
-        "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r6pj4qg1qzdl.pdf",
+        "Ticker": "FOS",
+        "CompanyName": "FOS CAPITAL LTD",
+        "DateTime": "2025-10-29T12:26:45+1100",
+        "Headline": "Change of Director's Interest Notice",
+        "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r6t6vyrrsl1m.pdf",
         "SignalType": "Change",
-        "director_name": "REBECCA DEE-BRADBURY",
+        "director_name": "Mr. Constantin Scrinis",
         "trade_type": "Buy",
-        "number_of_shares": 6080,
-        "price_per_share": 7.35,
-        "total_value": 44688.0
+        "number_of_shares": 412634,
+        "price_per_share": 0.28,
+        "total_value": 115537.49
     },
     "top_sell_of_the_day": null,
     "recent_trades": [
@@ -25,7 +25,7 @@
             "SignalType": "Initial Holding",
             "director_name": "Giles Bourne",
             "trade_type": "Other",
-            "number_of_shares": 0,
+            "number_of_shares": 11365817,
             "price_per_share": 0.0,
             "total_value": 0.0
         },
@@ -37,7 +37,7 @@
             "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r6t6vyrrsl1m.pdf",
             "SignalType": "Change",
             "director_name": "Mr. Constantin Scrinis",
-            "trade_type": "Other",
+            "trade_type": "Buy",
             "number_of_shares": 412634,
             "price_per_share": 0.28,
             "total_value": 115537.49
@@ -50,7 +50,7 @@
             "PdfLink": "https://announcements.asx.com.au/asxpdf/20251029/pdf/06r6s4zlxs6f8r.pdf",
             "SignalType": "Change",
             "director_name": "BRIAN PHILLIP LOWE",
-            "trade_type": "Other",
+            "trade_type": "Buy",
             "number_of_shares": 794392,
             "price_per_share": 0.0,
             "total_value": 0.0
