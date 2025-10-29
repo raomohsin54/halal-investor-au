@@ -16,16 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (data.top_buy_of_the_day) {
                     const buy = data.top_buy_of_the_day;
-                    topBuyCard.innerHTML = `<h2>Top Buy Today</h2><div class="ticker">${buy.Ticker}</div><div class="value">$${buy.total_value.toLocaleString()}</div><div class="director-name">by ${buy.director_name}</div>`;
+                    topBuyCard.innerHTML = `<h2>Top Buy This Week</h2><div class="ticker">${buy.Ticker}</div><div class="value">$${buy.total_value.toLocaleString()}</div><div class="director-name">by ${buy.director_name}</div>`;
                 } else {
-                    topBuyCard.innerHTML = '<h2>Top Buy Today</h2><div class="value">None Analyzed</div>';
+                    topBuyCard.innerHTML = '<h2>Top Buy This Week</h2><div class="value">None Analyzed</div>';
                 }
 
                 if (data.top_sell_of_the_day) {
                     const sell = data.top_sell_of_the_day;
-                    topSellCard.innerHTML = `<h2>Top Sell Today</h2><div class="ticker">${sell.Ticker}</div><div class="value">$${sell.total_value.toLocaleString()}</div><div class="director-name">by ${sell.director_name}</div>`;
+                    topSellCard.innerHTML = `<h2>Top Sell This Week</h2><div class="ticker">${sell.Ticker}</div><div class="value">$${sell.total_value.toLocaleString()}</div><div class="director-name">by ${sell.director_name}</div>`;
                 } else {
-                    topSellCard.innerHTML = '<h2>Top Sell Today</h2><div class="value">None Analyzed</div>';
+                    topSellCard.innerHTML = '<h2>Top Sell This Week</h2><div class="value">None Analyzed</div>';
                 }
             });
 
@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 latestTradesTable.innerHTML = '';
                 data.sort((a, b) => new Date(b.DateTime) - new Date(a.DateTime));
                 
-                // Show only the latest 5 trades on the homepage
                 const latestFive = data.slice(0, 5);
 
                 latestFive.forEach(trade => {
@@ -59,15 +58,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- LOGIC FOR THE 'AI Dashboard' PAGE ---
     if (dashboardContainer) {
-        // This logic is identical to your original dashboard.js
         fetch('./dashboard_summary.json')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('last-updated').innerText = `Last Updated: ${new Date(data.last_updated).toLocaleString()}`;
                 const topBuyCard = document.getElementById('top-buy-card');
                 const topSellCard = document.getElementById('top-sell-card');
-                if (data.top_buy_of_the_day) { const buy = data.top_buy_of_the_day; topBuyCard.innerHTML = `<h2>Top Buy Today</h2><div class="ticker">${buy.Ticker}</div><div class="value">$${buy.total_value.toLocaleString()}</div><div class="director-name">by ${buy.director_name}</div>`; } else { topBuyCard.innerHTML = '<h2>Top Buy Today</h2><div class="value">None Analyzed</div>'; }
-                if (data.top_sell_of_the_day) { const sell = data.top_sell_of_the_day; topSellCard.innerHTML = `<h2>Top Sell Today</h2><div class="ticker">${sell.Ticker}</div><div class="value">$${sell.total_value.toLocaleString()}</div><div class="director-name">by ${sell.director_name}</div>`; } else { topSellCard.innerHTML = '<h2>Top Sell Today</h2><div class="value">None Analyzed</div>'; }
+
+                // --- THIS IS THE CORRECTED PART ---
+                if (data.top_buy_of_the_day) { 
+                    const buy = data.top_buy_of_the_day; 
+                    topBuyCard.innerHTML = `<h2>Top Buy This Week</h2><div class="ticker">${buy.Ticker}</div><div class="value">$${buy.total_value.toLocaleString()}</div><div class="director-name">by ${buy.director_name}</div>`; 
+                } else { 
+                    topBuyCard.innerHTML = '<h2>Top Buy This Week</h2><div class="value">None Analyzed</div>'; 
+                }
+                
+                if (data.top_sell_of_the_day) { 
+                    const sell = data.top_sell_of_the_day; 
+                    topSellCard.innerHTML = `<h2>Top Sell This Week</h2><div class="ticker">${sell.Ticker}</div><div class="value">$${sell.total_value.toLocaleString()}</div><div class="director-name">by ${sell.director_name}</div>`; 
+                } else { 
+                    topSellCard.innerHTML = '<h2>Top Sell This Week</h2><div class="value">None Analyzed</div>'; 
+                }
+                // --- END OF CORRECTION ---
+
                 const recentTradesTable = document.getElementById('recent-trades-table');
                 if (data.recent_trades && data.recent_trades.length > 0) {
                     data.recent_trades.forEach(trade => {
@@ -84,7 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- LOGIC FOR THE 'Insider Trades' PAGE ---
     if (tradesTableBody) {
-        // This logic is from your original main.js
         tradesTableBody.innerHTML = '<tr><td colspan="6">Loading latest trades...</td></tr>';
         fetch('./director_trades.json')
             .then(response => response.json())
