@@ -1,646 +1,762 @@
 [
     {
+        "Ticker":"SCP",
+        "CompanyName":"SCALARE PARTNERS HOLDINGS LIMITED",
+        "DateTime":"2025-10-29T12:54:20+1100",
+        "Headline":"Initial Director's Interest Notice - Bourne",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r6vnz21v31xv.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"FOS",
+        "CompanyName":"FOS CAPITAL LTD",
+        "DateTime":"2025-10-29T12:26:45+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r6t6vyrrsl1m.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"ORA",
+        "CompanyName":"ORORA LIMITED",
+        "DateTime":"2025-10-29T12:08:05+1100",
+        "Headline":"Change of Director's Interest Notice - ORA",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r6s4zlxs6f8r.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"AFI",
+        "CompanyName":"AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+        "DateTime":"2025-10-29T11:21:54+1100",
+        "Headline":"Corrected - Appendix 3Y Change of Directors Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r6ps4rn3h827.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"AFI",
+        "CompanyName":"AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+        "DateTime":"2025-10-29T11:13:24+1100",
+        "Headline":"Appendix 3Y - Change of Directors Interest Notice x2",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r6pj4qg1qzdl.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"MYG",
+        "CompanyName":"MAYFIELD GROUP HOLDINGS LIMITED",
+        "DateTime":"2025-10-29T11:00:49+1100",
+        "Headline":"Change of Director's Interest Notice - Phillips",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r6ntwm70f1yz.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"MYG",
+        "CompanyName":"MAYFIELD GROUP HOLDINGS LIMITED",
+        "DateTime":"2025-10-29T11:00:29+1100",
+        "Headline":"Change of Director's Interest Notice - Steele",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r6nrrdbldqgp.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"BAP",
+        "CompanyName":"BAPCOR LIMITED",
+        "DateTime":"2025-10-29T09:11:18+1100",
+        "Headline":"Appendix 3Y - L. Edwards",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r680s56ntc9w.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"BAP",
+        "CompanyName":"BAPCOR LIMITED",
+        "DateTime":"2025-10-29T09:08:28+1100",
+        "Headline":"Appendix 3Y - A. Carey",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r67lsb7rj1fs.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"BAP",
+        "CompanyName":"BAPCOR LIMITED",
+        "DateTime":"2025-10-29T09:06:13+1100",
+        "Headline":"Appendix 3Y - J. Korhonen",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r677zccgm4f7.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"CLV",
+        "CompanyName":"CLOVER CORPORATION LIMITED",
+        "DateTime":"2025-10-29T08:41:43+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r63wmlkh2f5j.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"GOW",
+        "CompanyName":"GOWING BROS LIMITED",
+        "DateTime":"2025-10-29T08:40:13+1100",
+        "Headline":"Change of Director's Interest Notice John Gowing",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r63t7pmhwwnc.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"BWF",
+        "CompanyName":"BLACKWALL LIMITED",
+        "DateTime":"2025-10-29T08:28:48+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r62gkypmr35l.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"TRJ",
+        "CompanyName":"TRAJAN GROUP HOLDINGS LIMITED",
+        "DateTime":"2025-10-29T08:26:23+1100",
+        "Headline":"Final Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r627vyp0rhm9.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"JAT",
+        "CompanyName":"JATCORP LIMITED",
+        "DateTime":"2025-10-29T08:24:08+1100",
+        "Headline":"Initial Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r619gpx34c52.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"TIO",
+        "CompanyName":"TEMAS RESOURCES CORP.",
+        "DateTime":"2025-10-29T08:21:08+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r5zf02s3d93v.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"RHT",
+        "CompanyName":"RESONANCE HEALTH LIMITED",
+        "DateTime":"2025-10-29T08:20:58+1100",
+        "Headline":"Change of Director's Interest Notice - Mitchell Wells",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r5z8tx56qhwb.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"DSM",
+        "CompanyName":"DESERT MINERALS LTD",
+        "DateTime":"2025-10-29T08:20:08+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r5yr45ypm96h.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"FHE",
+        "CompanyName":"FRONTIER ENERGY LIMITED",
+        "DateTime":"2025-10-29T08:17:13+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251029\/pdf\/06r5wzt4gkkl90.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"TOK",
+        "CompanyName":"TOLU MINERALS LIMITED.",
+        "DateTime":"2025-10-28T19:35:48+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5lzggs32qtd.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"FMR",
+        "CompanyName":"FMR RESOURCES LIMITED",
+        "DateTime":"2025-10-28T18:38:18+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5hqfss8qt99.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"EDU",
+        "CompanyName":"EDU HOLDINGS LIMITED",
+        "DateTime":"2025-10-28T18:31:13+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5hbm1742qph.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"EDU",
+        "CompanyName":"EDU HOLDINGS LIMITED",
+        "DateTime":"2025-10-28T18:22:43+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5h0jzp3l786.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"GDG",
+        "CompanyName":"GENERATION DEVELOPMENT GROUP LIMITED",
+        "DateTime":"2025-10-28T18:21:18+1100",
+        "Headline":"Appendix 3Y",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5gw3lpbs7dx.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"CAZ",
+        "CompanyName":"CAZALY RESOURCES LIMITED",
+        "DateTime":"2025-10-28T18:20:48+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5gsy8vgb6nx.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"GUM",
+        "CompanyName":"GUMTREE AUSTRALIA MARKETS LIMITED",
+        "DateTime":"2025-10-28T18:11:12+1100",
+        "Headline":"Change of Director's Interest Notice - Logtenberg (update)",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5g27xqj4yrf.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"EXT",
+        "CompanyName":"EXCITE TECHNOLOGY SERVICES LTD",
+        "DateTime":"2025-10-28T17:29:02+1100",
+        "Headline":"Appendix 3Y - NS",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5bl50plhqgf.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"GUM",
+        "CompanyName":"GUMTREE AUSTRALIA MARKETS LIMITED",
+        "DateTime":"2025-10-28T17:00:32+1100",
+        "Headline":"Change of Director's Interest Notice - Logtenberg",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r59d416zr6df.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"29M",
+        "CompanyName":"29METALS LIMITED",
+        "DateTime":"2025-10-28T16:59:57+1100",
+        "Headline":"Appendix 3Y (A Gupta)",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r597w4bc1bg9.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"KNO",
+        "CompanyName":"KNOSYS LIMITED",
+        "DateTime":"2025-10-28T16:54:47+1100",
+        "Headline":"Initial Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r58r9ykvm2n7.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"ASX",
+        "CompanyName":"ASX LIMITED",
+        "DateTime":"2025-10-28T16:51:17+1100",
+        "Headline":"Appendix 3Y - Helen Lofthouse",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r58g9s70sjw2.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"CAZ",
+        "CompanyName":"CAZALY RESOURCES LIMITED",
+        "DateTime":"2025-10-28T16:31:07+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r56sjd9tr3d8.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"MRZ",
+        "CompanyName":"MONT ROYAL RESOURCES LIMITED",
+        "DateTime":"2025-10-28T16:20:02+1100",
+        "Headline":"Initial Director's Interest Notices",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r55s8293s173.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"SHA",
+        "CompanyName":"SHAPE AUSTRALIA CORPORATION LIMITED",
+        "DateTime":"2025-10-28T16:17:57+1100",
+        "Headline":"Final Director's Interest Notice - Michael Barnes",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r55km8h745zd.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"TIO",
+        "CompanyName":"TEMAS RESOURCES CORP.",
+        "DateTime":"2025-10-28T16:16:17+1100",
+        "Headline":"Initial Director's Interest Notice x 5",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r55905bp86fw.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"MRZ",
+        "CompanyName":"MONT ROYAL RESOURCES LIMITED",
+        "DateTime":"2025-10-28T16:13:07+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r54y05l9mjk3.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"ASV",
+        "CompanyName":"ASSET VISION CO LTD",
+        "DateTime":"2025-10-28T16:12:47+1100",
+        "Headline":"Change of Director's Interest Notice - Damian Smith",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r54ssxn0y0m4.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"ASV",
+        "CompanyName":"ASSET VISION CO LTD",
+        "DateTime":"2025-10-28T16:12:37+1100",
+        "Headline":"Change of Director's Interest Notice - Lucas Murtagh",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r54qpsnwm8dy.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"MRZ",
+        "CompanyName":"MONT ROYAL RESOURCES LIMITED",
+        "DateTime":"2025-10-28T16:12:22+1100",
+        "Headline":"Final Director's Interest Notices",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r54lj2zxw5th.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"WC8",
+        "CompanyName":"WILDCAT RESOURCES LIMITED",
+        "DateTime":"2025-10-28T16:12:17+1100",
+        "Headline":"Change of Director's Interest Notice - AS",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r54jfj0wmmwf.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"TDO",
+        "CompanyName":"3D ENERGI LIMITED",
+        "DateTime":"2025-10-28T16:12:12+1100",
+        "Headline":"Final Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r54gby1b22xc.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"ASV",
+        "CompanyName":"ASSET VISION CO LTD",
+        "DateTime":"2025-10-28T16:11:42+1100",
+        "Headline":"Change of Director's Interest Notice - Peter Borden",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r5481k844420.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"ASV",
+        "CompanyName":"ASSET VISION CO LTD",
+        "DateTime":"2025-10-28T16:11:32+1100",
+        "Headline":"Change of Director's Interest Notice - Luke Donnellan",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r545yfnl9nq3.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"WOT",
+        "CompanyName":"WOTSO",
+        "DateTime":"2025-10-28T16:09:32+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r53x84r1tpr0.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"TDO",
+        "CompanyName":"3D ENERGI LIMITED",
+        "DateTime":"2025-10-28T16:08:57+1100",
+        "Headline":"Initial Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r53s07x348c4.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"FHS",
+        "CompanyName":"FREEHILL MINING LIMITED.",
+        "DateTime":"2025-10-28T16:07:27+1100",
+        "Headline":"Response to ASX Appendix 3Y Query",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r53kh9cz4654.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"CLV",
+        "CompanyName":"CLOVER CORPORATION LIMITED",
+        "DateTime":"2025-10-28T16:05:37+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r53bx4bp15x6.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"PAB",
+        "CompanyName":"PATRYS LIMITED",
+        "DateTime":"2025-10-28T16:04:17+1100",
+        "Headline":"Change of Director's Interest Notices x3",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r534f8ys6j0f.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"PLY",
+        "CompanyName":"PLAYSIDE STUDIOS LIMITED",
+        "DateTime":"2025-10-28T14:53:56+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4yb7kjq9ft2.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"PLY",
+        "CompanyName":"PLAYSIDE STUDIOS LIMITED",
+        "DateTime":"2025-10-28T14:49:46+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4xwyz19rcg9.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"BSX",
+        "CompanyName":"BLACKSTONE MINERALS LIMITED",
+        "DateTime":"2025-10-28T14:40:01+1100",
+        "Headline":"Initial Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4x79k66cm60.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"BSX",
+        "CompanyName":"BLACKSTONE MINERALS LIMITED",
+        "DateTime":"2025-10-28T14:38:46+1100",
+        "Headline":"Final Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4x4z941kyck.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"LBL",
+        "CompanyName":"LASERBOND LIMITED",
+        "DateTime":"2025-10-28T13:58:31+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4ttdk0q63s3.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"FHE",
+        "CompanyName":"FRONTIER ENERGY LIMITED",
+        "DateTime":"2025-10-28T13:49:46+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4th8vnsz7kp.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"VTX",
+        "CompanyName":"VERTEX MINERALS LIMITED",
+        "DateTime":"2025-10-28T13:33:46+1100",
+        "Headline":"Change of Director's Interest Notice Franzmann",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4sxfcjydzzk.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"LBL",
+        "CompanyName":"LASERBOND LIMITED",
+        "DateTime":"2025-10-28T13:14:30+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4rq97v8lqh0.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"MSB",
+        "CompanyName":"MESOBLAST LIMITED",
+        "DateTime":"2025-10-28T13:02:00+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4rffxccfr57.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"LYL",
+        "CompanyName":"LYCOPODIUM LIMITED",
+        "DateTime":"2025-10-28T11:24:20+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4kwy5q9twsg.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"FHS",
+        "CompanyName":"FREEHILL MINING LIMITED.",
+        "DateTime":"2025-10-28T11:16:25+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4kq40nbnhc8.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"SHM",
+        "CompanyName":"SHRIRO HOLDINGS LIMITED",
+        "DateTime":"2025-10-28T11:16:10+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4kn0c35nmw9.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"CHL",
+        "CompanyName":"CAMPLIFY HOLDINGS LIMITED",
+        "DateTime":"2025-10-28T11:02:55+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4jpbsprv58g.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"POD",
+        "CompanyName":"PODIUM MINERALS LIMITED",
+        "DateTime":"2025-10-28T10:58:35+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4jd55d7jfxp.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"CDA",
+        "CompanyName":"CODAN LIMITED",
+        "DateTime":"2025-10-28T10:48:15+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4hl7vrb2p9b.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"ACL",
+        "CompanyName":"AUSTRALIAN CLINICAL LABS LIMITED",
+        "DateTime":"2025-10-28T09:59:19+1100",
+        "Headline":"Change of Director's Interest Notice - S Roche",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4f5v3q47qb0.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"BOQ",
+        "CompanyName":"BANK OF QUEENSLAND LIMITED.",
+        "DateTime":"2025-10-28T09:59:04+1100",
+        "Headline":"Final Director's Interest Notice - Warwick Negus",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4dzldpt19j7.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"FLN",
+        "CompanyName":"FREELANCER LIMITED",
+        "DateTime":"2025-10-28T09:48:04+1100",
+        "Headline":"Appendix 3Y",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r4cv6k3tq25q.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"PLC",
+        "CompanyName":"PREMIER1 LITHIUM LIMITED",
+        "DateTime":"2025-10-28T08:28:09+1100",
+        "Headline":"Final Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r3yryblmz31j.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"NSC",
+        "CompanyName":"NAOS SMALL CAP OPPORTUNITIES COMPANY LIMITED",
+        "DateTime":"2025-10-28T08:23:54+1100",
+        "Headline":"Change of Director's Interest Notice - S Evans",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251028\/pdf\/06r3xjvw7q52xk.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"MGX",
+        "CompanyName":"MOUNT GIBSON IRON LIMITED",
+        "DateTime":"2025-10-27T19:39:08+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r3hn23l6n8sq.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"LML",
+        "CompanyName":"LINCOLN MINERALS LIMITED",
+        "DateTime":"2025-10-27T19:23:23+1100",
+        "Headline":"Initial Director's Interest Notice (amended) GE",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r3hbjf3tzcqp.pdf",
+        "SignalType":"Initial Holding"
+    },
+    {
+        "Ticker":"TIP",
+        "CompanyName":"TEAMINVEST PRIVATE GROUP LIMITED",
+        "DateTime":"2025-10-27T18:43:33+1100",
+        "Headline":"Appendix 3Y - Howard Coleman",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r3fghqfzf53q.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"ABB",
+        "CompanyName":"AUSSIE BROADBAND LIMITED",
+        "DateTime":"2025-10-27T17:23:42+1100",
+        "Headline":"Change of Director's Interest Notice - Graeme Barclay",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r38d3pvs28gn.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"JDO",
+        "CompanyName":"JUDO CAPITAL HOLDINGS LIMITED",
+        "DateTime":"2025-10-27T16:47:12+1100",
+        "Headline":"Change of Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r34w58ps1lrs.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"AOV",
+        "CompanyName":"AMOTIV LIMITED",
+        "DateTime":"2025-10-27T15:39:42+1100",
+        "Headline":"Final Director's Interest Notice",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2z2m3qqdytr.pdf",
+        "SignalType":"Final Holding"
+    },
+    {
+        "Ticker":"CMB",
+        "CompanyName":"CAMBIUM BIO LIMITED",
+        "DateTime":"2025-10-27T15:20:41+1100",
+        "Headline":"Corrective Appendix 3Y Terrence Walts",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2y0nr9sj322.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"PRX",
+        "CompanyName":"PRODIGY GOLD NL",
+        "DateTime":"2025-10-27T15:16:11+1100",
+        "Headline":"Change of Director's Interest Notice - Mark Edwards",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2xd3x8fwv8v.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"PRX",
+        "CompanyName":"PRODIGY GOLD NL",
+        "DateTime":"2025-10-27T15:10:11+1100",
+        "Headline":"Change of Director's Interest Notice - Neale Edwards",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2x4ncbdvc6p.pdf",
+        "SignalType":"Change"
+    },
+    {
+        "Ticker":"PRX",
+        "CompanyName":"PRODIGY GOLD NL",
+        "DateTime":"2025-10-27T15:09:01+1100",
+        "Headline":"Change of Director's Interest Notice - Brett Smith",
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2x08mm3j34b.pdf",
+        "SignalType":"Change"
+    },
+    {
         "Ticker":"PLN",
         "CompanyName":"PIONEER LITHIUM LIMITED",
         "DateTime":"2025-10-27T13:59:06+1100",
         "Headline":"Initial Director's Interest Notice - Gerteisen",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2sb9frxwm38.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2sb9frxwm38.pdf",
+        "SignalType":"Initial Holding"
     },
     {
         "Ticker":"AQN",
         "CompanyName":"AQUIRIAN LIMITED",
         "DateTime":"2025-10-27T13:53:26+1100",
         "Headline":"Change of Director's Interest - DK",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2rys18qkdlt.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2rys18qkdlt.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"PCK",
         "CompanyName":"PAINCHEK LTD",
         "DateTime":"2025-10-27T13:06:05+1100",
         "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2qkp7zbv5p0.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2qkp7zbv5p0.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"CYG",
         "CompanyName":"COVENTRY GROUP LIMITED",
         "DateTime":"2025-10-27T12:29:10+1100",
         "Headline":"Change of Director's Interest Notice - N Alpert",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2nzjwt8z8j1.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2nzjwt8z8j1.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"KLS",
         "CompanyName":"KELSIAN GROUP LIMITED",
         "DateTime":"2025-10-27T12:21:20+1100",
         "Headline":"Change of Director's Interest Notice (Grady)",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2nvtbsqzhhj.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2nvtbsqzhhj.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"KLS",
         "CompanyName":"KELSIAN GROUP LIMITED",
         "DateTime":"2025-10-27T12:21:10+1100",
         "Headline":"Change of Director's Interest Notice (McArthur)",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2nsq7611gxg.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2nsq7611gxg.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"AKG",
         "CompanyName":"ACADEMIES AUSTRALASIA GROUP LIMITED",
         "DateTime":"2025-10-27T11:53:15+1100",
         "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2n06bzdg2p4.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2n06bzdg2p4.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"BXB",
         "CompanyName":"BRAMBLES LIMITED",
         "DateTime":"2025-10-27T11:51:55+1100",
         "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2mxvkhw1xx4.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2mxvkhw1xx4.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"LNQ",
         "CompanyName":"LINQ MINERALS LIMITED",
         "DateTime":"2025-10-27T11:44:30+1100",
         "Headline":"Initial Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2mdtlggc40d.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2mdtlggc40d.pdf",
+        "SignalType":"Initial Holding"
     },
     {
         "Ticker":"LNQ",
         "CompanyName":"LINQ MINERALS LIMITED",
         "DateTime":"2025-10-27T11:43:20+1100",
         "Headline":"Final Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2mbhwf72k4r.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2mbhwf72k4r.pdf",
+        "SignalType":"Final Holding"
     },
     {
         "Ticker":"ADH",
         "CompanyName":"ADAIRS LIMITED",
         "DateTime":"2025-10-27T11:00:09+1100",
         "Headline":"Change of Director's Interest Notice - Rachel Kelly",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2k9n8klv5rd.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2k9n8klv5rd.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"APL",
         "CompanyName":"ASSOCIATE GLOBAL PARTNERS LIMITED",
         "DateTime":"2025-10-27T10:55:19+1100",
         "Headline":"Change of Director's Interest Notice - B Cairns",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2jy9btck8wg.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2jy9btck8wg.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"ORA",
         "CompanyName":"ORORA LIMITED",
         "DateTime":"2025-10-27T10:03:04+1100",
         "Headline":"Change of Director's Interest Notice - ORA",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2g7xrb8m4bv.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2g7xrb8m4bv.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"EEL",
         "CompanyName":"ENRG ELEMENTS LTD",
         "DateTime":"2025-10-27T09:59:24+1100",
         "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2ffc9pv5b3g.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2ffc9pv5b3g.pdf",
+        "SignalType":"Change"
     },
     {
         "Ticker":"AXL",
         "CompanyName":"AXEL REE LIMITED",
         "DateTime":"2025-10-27T09:58:09+1100",
         "Headline":"Initial Director's Interest Notice - AN",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2f2ryy183j0.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2f2ryy183j0.pdf",
+        "SignalType":"Initial Holding"
     },
     {
         "Ticker":"AXL",
         "CompanyName":"AXEL REE LIMITED",
         "DateTime":"2025-10-27T09:56:44+1100",
         "Headline":"Final Director's Interest Notice - IK",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2dr4j4q1f3y.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r2dr4j4q1f3y.pdf",
+        "SignalType":"Final Holding"
     },
     {
         "Ticker":"COD",
         "CompanyName":"CODA MINERALS LTD",
         "DateTime":"2025-10-27T09:12:14+1100",
         "Headline":"Change of Director's Interest Notice x 3",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r23zdjtgjcs0.pdf"
-    },
-    {
-        "Ticker":"BBN",
-        "CompanyName":"BABY BUNTING GROUP LIMITED",
-        "DateTime":"2025-10-27T08:29:58+1100",
-        "Headline":"Change of Director's Interest Notice - Debra Singh",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r1wkfws66v55.pdf"
-    },
-    {
-        "Ticker":"AEE",
-        "CompanyName":"AURA ENERGY LIMITED",
-        "DateTime":"2025-10-27T08:19:53+1100",
-        "Headline":"Final Director's Interest Notice - Mr A Grove",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r1rhd1dgd535.pdf"
-    },
-    {
-        "Ticker":"BSN",
-        "CompanyName":"BASIN ENERGY LIMITED",
-        "DateTime":"2025-10-27T08:18:48+1100",
-        "Headline":"Change of Director's Interest Notice - Belyk",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r1r2rrjx0bl5.pdf"
-    },
-    {
-        "Ticker":"BSN",
-        "CompanyName":"BASIN ENERGY LIMITED",
-        "DateTime":"2025-10-27T08:18:38+1100",
-        "Headline":"Change of Director's Interest Notice - O'Kane",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r1r0nms1mgzn.pdf"
-    },
-    {
-        "Ticker":"BSN",
-        "CompanyName":"BASIN ENERGY LIMITED",
-        "DateTime":"2025-10-27T08:18:28+1100",
-        "Headline":"Change of Director's Interest Notice - Moorhouse",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r1qykj11d202.pdf"
-    },
-    {
-        "Ticker":"BSN",
-        "CompanyName":"BASIN ENERGY LIMITED",
-        "DateTime":"2025-10-27T08:18:23+1100",
-        "Headline":"Change of Director's Interest Notice - Steele",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r1qwgy7v07ld.pdf"
-    },
-    {
-        "Ticker":"CTM",
-        "CompanyName":"CENTAURUS METALS LIMITED",
-        "DateTime":"2025-10-24T19:46:31+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0t7b2cv11p9.pdf"
-    },
-    {
-        "Ticker":"PEX",
-        "CompanyName":"PEEL MINING LIMITED",
-        "DateTime":"2025-10-24T19:38:36+1100",
-        "Headline":"Change of Director's Interest Notice - M Okeby",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0sv9xgp8vzm.pdf"
-    },
-    {
-        "Ticker":"ILT",
-        "CompanyName":"ILTANI RESOURCES LIMITED.",
-        "DateTime":"2025-10-24T19:15:06+1100",
-        "Headline":"Change of Director's Interest Notice x3",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0rym5gdc4pr.pdf"
-    },
-    {
-        "Ticker":"WTC",
-        "CompanyName":"WISETECH GLOBAL LIMITED",
-        "DateTime":"2025-10-24T19:05:01+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0r4rnfgyq8k.pdf"
-    },
-    {
-        "Ticker":"WTC",
-        "CompanyName":"WISETECH GLOBAL LIMITED",
-        "DateTime":"2025-10-24T19:04:46+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0r2mzz34l44.pdf"
-    },
-    {
-        "Ticker":"WA8",
-        "CompanyName":"WARRIEDAR RESOURCES LIMITED",
-        "DateTime":"2025-10-24T18:57:31+1100",
-        "Headline":"Change of Director's Interest Notice x 3",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0qrv7tc4kpt.pdf"
-    },
-    {
-        "Ticker":"WHK",
-        "CompanyName":"WHITEHAWK LIMITED",
-        "DateTime":"2025-10-24T18:27:01+1100",
-        "Headline":"Change of Director's Interest Notice (GP)",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0p2y8dgpjy7.pdf"
-    },
-    {
-        "Ticker":"WAK",
-        "CompanyName":"WA KAOLIN LIMITED",
-        "DateTime":"2025-10-24T18:07:16+1100",
-        "Headline":"Initial Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0n936985kp3.pdf"
-    },
-    {
-        "Ticker":"WAK",
-        "CompanyName":"WA KAOLIN LIMITED",
-        "DateTime":"2025-10-24T18:07:01+1100",
-        "Headline":"Initial Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0n6zjrxf135.pdf"
-    },
-    {
-        "Ticker":"WAK",
-        "CompanyName":"WA KAOLIN LIMITED",
-        "DateTime":"2025-10-24T18:06:46+1100",
-        "Headline":"Final Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0n4vw8dt7j6.pdf"
-    },
-    {
-        "Ticker":"WAK",
-        "CompanyName":"WA KAOLIN LIMITED",
-        "DateTime":"2025-10-24T18:06:36+1100",
-        "Headline":"Final Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0n2rrw6sxs1.pdf"
-    },
-    {
-        "Ticker":"LCE",
-        "CompanyName":"LONDON CITY EQUITIES LIMITED",
-        "DateTime":"2025-10-24T17:49:26+1100",
-        "Headline":"Change of Director's Interest Notice X 3",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0mmsspf79y4.pdf"
-    },
-    {
-        "Ticker":"AR1",
-        "CompanyName":"AUSTRAL RESOURCES AUSTRALIA LTD",
-        "DateTime":"2025-10-24T17:30:46+1100",
-        "Headline":"Change of Director's Interest Notice - D Jauncey",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0l9nq402f4p.pdf"
-    },
-    {
-        "Ticker":"PPG",
-        "CompanyName":"PRO-PAC PACKAGING LIMITED",
-        "DateTime":"2025-10-24T17:23:31+1100",
-        "Headline":"Final Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0kxsy8h9ss9.pdf"
-    },
-    {
-        "Ticker":"IPC",
-        "CompanyName":"IMPERIAL PACIFIC LIMITED",
-        "DateTime":"2025-10-24T17:07:00+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0jh02g9s1f5.pdf"
-    },
-    {
-        "Ticker":"ERA",
-        "CompanyName":"ENERGY RESOURCES OF AUSTRALIA LIMITED",
-        "DateTime":"2025-10-24T16:54:45+1100",
-        "Headline":"Appendix 3Y - Alfie Grigg",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0hxydg09ys9.pdf"
-    },
-    {
-        "Ticker":"ERA",
-        "CompanyName":"ENERGY RESOURCES OF AUSTRALIA LIMITED",
-        "DateTime":"2025-10-24T16:54:35+1100",
-        "Headline":"Appendix 3Y - Justin Carey",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0hvv8x1495n.pdf"
-    },
-    {
-        "Ticker":"ATG",
-        "CompanyName":"ARTICORE GROUP LIMITED",
-        "DateTime":"2025-10-24T16:35:45+1100",
-        "Headline":"Change of Director's Interest Notice - John Lewis",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0fjpvrdw03z.pdf"
-    },
-    {
-        "Ticker":"ICU",
-        "CompanyName":"INVESTOR CENTRE LIMITED",
-        "DateTime":"2025-10-24T16:15:30+1100",
-        "Headline":"Initial Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0c0221rlljg.pdf"
-    },
-    {
-        "Ticker":"ICU",
-        "CompanyName":"INVESTOR CENTRE LIMITED",
-        "DateTime":"2025-10-24T16:15:10+1100",
-        "Headline":"Initial Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0bvvv02j6xr.pdf"
-    },
-    {
-        "Ticker":"HPR",
-        "CompanyName":"HIGH PEAK ROYALTIES LIMITED",
-        "DateTime":"2025-10-24T16:09:20+1100",
-        "Headline":"Appendix 3Y",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r0b2x90gtn6l.pdf"
-    },
-    {
-        "Ticker":"RIE",
-        "CompanyName":"RIEDEL RESOURCES LIMITED",
-        "DateTime":"2025-10-24T15:55:30+1100",
-        "Headline":"Change of Director's Interest Notice x 3",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r09qq85k246c.pdf"
-    },
-    {
-        "Ticker":"MAH",
-        "CompanyName":"MACMAHON HOLDINGS LIMITED",
-        "DateTime":"2025-10-24T15:24:05+1100",
-        "Headline":"Final Director's Interest Notice - Hamish Tyrwhitt",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r07n74y5bbkl.pdf"
-    },
-    {
-        "Ticker":"MMI",
-        "CompanyName":"METRO MINING LIMITED",
-        "DateTime":"2025-10-24T15:05:30+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r06qhrrbxnm8.pdf"
-    },
-    {
-        "Ticker":"GAL",
-        "CompanyName":"GALILEO MINING LTD",
-        "DateTime":"2025-10-24T14:39:55+1100",
-        "Headline":"Appendix 3Y x 3",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r04td2163hn6.pdf"
-    },
-    {
-        "Ticker":"ARC",
-        "CompanyName":"ARC FUNDS LIMITED",
-        "DateTime":"2025-10-24T14:30:19+1100",
-        "Headline":"Change of Director's Interest Notice - S Beeton",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r042pw04vg9s.pdf"
-    },
-    {
-        "Ticker":"EBO",
-        "CompanyName":"EBOS GROUP LIMITED",
-        "DateTime":"2025-10-24T13:22:49+1100",
-        "Headline":"ASX Appendix 3Y",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06r00pj7gpvv9k.pdf"
-    },
-    {
-        "Ticker":"BWF",
-        "CompanyName":"BLACKWALL LIMITED",
-        "DateTime":"2025-10-24T11:57:39+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzvn31rxnbks.pdf"
-    },
-    {
-        "Ticker":"MYG",
-        "CompanyName":"MAYFIELD GROUP HOLDINGS LIMITED",
-        "DateTime":"2025-10-24T11:39:28+1100",
-        "Headline":"Final Director's Interest Notice Choquenot",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qztndcnc6h10.pdf"
-    },
-    {
-        "Ticker":"MMI",
-        "CompanyName":"METRO MINING LIMITED",
-        "DateTime":"2025-10-24T11:21:03+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzsdczrvrd83.pdf"
-    },
-    {
-        "Ticker":"M4M",
-        "CompanyName":"MACRO METALS LIMITED",
-        "DateTime":"2025-10-24T10:58:08+1100",
-        "Headline":"Final Director's Interest Notice - Shawn Tilley",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzr1byyw0wzv.pdf"
-    },
-    {
-        "Ticker":"ACL",
-        "CompanyName":"AUSTRALIAN CLINICAL LABS LIMITED",
-        "DateTime":"2025-10-24T10:57:38+1100",
-        "Headline":"Final Director's Interest Notice - L Rowe",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzqz5nx2167z.pdf"
-    },
-    {
-        "Ticker":"NPM",
-        "CompanyName":"NEWPEAK METALS LIMITED",
-        "DateTime":"2025-10-24T10:36:53+1100",
-        "Headline":"Change of Director's Interest Notices (x4)",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzptszd43kl4.pdf"
-    },
-    {
-        "Ticker":"TCL",
-        "CompanyName":"TRANSURBAN GROUP",
-        "DateTime":"2025-10-24T10:20:03+1100",
-        "Headline":"Appendix 3Y - Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qznvd1w3yy5w.pdf"
-    },
-    {
-        "Ticker":"EUR",
-        "CompanyName":"EUROPEAN LITHIUM LIMITED",
-        "DateTime":"2025-10-24T10:12:18+1100",
-        "Headline":"Appendix 3Y - Tony Sage",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qznb8zq3c8n0.pdf"
-    },
-    {
-        "Ticker":"MAC",
-        "CompanyName":"MAC COPPER LIMITED",
-        "DateTime":"2025-10-24T10:11:23+1100",
-        "Headline":"Initial Director's Interest Notice x 2",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzn5yxz4m281.pdf"
-    },
-    {
-        "Ticker":"MAC",
-        "CompanyName":"MAC COPPER LIMITED",
-        "DateTime":"2025-10-24T10:11:18+1100",
-        "Headline":"Final Director's Interest Notice x 8",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzn3wd3vrm1y.pdf"
-    },
-    {
-        "Ticker":"TWE",
-        "CompanyName":"TREASURY WINE ESTATES LIMITED",
-        "DateTime":"2025-10-24T09:32:32+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzjb6p3s7ymk.pdf"
-    },
-    {
-        "Ticker":"HZN",
-        "CompanyName":"HORIZON OIL LIMITED",
-        "DateTime":"2025-10-24T09:19:57+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzghvhysl331.pdf"
-    },
-    {
-        "Ticker":"VNT",
-        "CompanyName":"VENTIA SERVICES GROUP LIMITED",
-        "DateTime":"2025-10-24T08:53:42+1100",
-        "Headline":"Change of Director's Interest Notice - Dean Banks",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qzb89x8838z7.pdf"
-    },
-    {
-        "Ticker":"BXB",
-        "CompanyName":"BRAMBLES LIMITED",
-        "DateTime":"2025-10-24T08:50:47+1100",
-        "Headline":"Final Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qz9n3l7vl8zf.pdf"
-    },
-    {
-        "Ticker":"AER",
-        "CompanyName":"AEERIS LTD",
-        "DateTime":"2025-10-24T08:40:37+1100",
-        "Headline":"Change of Director's Interest Notice x3",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qz8n1hqmymst.pdf"
-    },
-    {
-        "Ticker":"DYL",
-        "CompanyName":"DEEP YELLOW LIMITED",
-        "DateTime":"2025-10-24T08:21:32+1100",
-        "Headline":"Final Director's Interest Notice - J. Borshoff",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251024\/pdf\/06qz2vgnbs3t76.pdf"
-    },
-    {
-        "Ticker":"ASM",
-        "CompanyName":"AUSTRALIAN STRATEGIC MATERIALS LIMITED",
-        "DateTime":"2025-10-23T19:21:42+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qyrsgn835lxz.pdf"
-    },
-    {
-        "Ticker":"CYM",
-        "CompanyName":"CYPRIUM METALS LIMITED",
-        "DateTime":"2025-10-23T19:21:02+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qyrq87z09zpd.pdf"
-    },
-    {
-        "Ticker":"NIM",
-        "CompanyName":"NIMY RESOURCES LIMITED",
-        "DateTime":"2025-10-23T18:09:12+1100",
-        "Headline":"Change of Director's Interest Notice - NW, LH",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qynrmdy5kyn7.pdf"
-    },
-    {
-        "Ticker":"NIM",
-        "CompanyName":"NIMY RESOURCES LIMITED",
-        "DateTime":"2025-10-23T18:05:52+1100",
-        "Headline":"Final Director's Interest Notice - CP",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qynnvhgbnp7h.pdf"
-    },
-    {
-        "Ticker":"TGP",
-        "CompanyName":"360 CAPITAL GROUP",
-        "DateTime":"2025-10-23T17:35:12+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qylljg7qj85c.pdf"
-    },
-    {
-        "Ticker":"TEK",
-        "CompanyName":"THORNEY TECHNOLOGIES LTD",
-        "DateTime":"2025-10-23T17:10:51+1100",
-        "Headline":"Change of Director's Interest Notice - A Waislitz",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qykpn9pbfy6m.pdf"
-    },
-    {
-        "Ticker":"JAN",
-        "CompanyName":"JANISON EDUCATION GROUP LIMITED",
-        "DateTime":"2025-10-23T16:43:06+1100",
-        "Headline":"Final Director's Interest Notice - V Aristidopoulos",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qyh9mdfhvmmb.pdf"
-    },
-    {
-        "Ticker":"LML",
-        "CompanyName":"LINCOLN MINERALS LIMITED",
-        "DateTime":"2025-10-23T16:33:06+1100",
-        "Headline":"Initial Director's Interest Notice GE",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qyh19ljv091l.pdf"
-    },
-    {
-        "Ticker":"TLC",
-        "CompanyName":"THE LOTTERY CORPORATION LIMITED",
-        "DateTime":"2025-10-23T16:27:51+1100",
-        "Headline":"Appendix 3Y - Sue van der Merwe",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qygnw0h994lw.pdf"
-    },
-    {
-        "Ticker":"WNX",
-        "CompanyName":"WELLNEX LIFE LIMITED",
-        "DateTime":"2025-10-23T15:43:01+1100",
-        "Headline":"Final Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qydhjvdwm9mb.pdf"
-    },
-    {
-        "Ticker":"XRF",
-        "CompanyName":"XRF SCIENTIFIC LIMITED",
-        "DateTime":"2025-10-23T15:05:46+1100",
-        "Headline":"Change of Director's Interest Notice - V. Stazzonelli",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qybn2llx1pgn.pdf"
-    },
-    {
-        "Ticker":"PKY",
-        "CompanyName":"PATHKEY.AI LTD",
-        "DateTime":"2025-10-23T14:53:51+1100",
-        "Headline":"Final Director's Interest Notice - Saurabh Jain",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qyb995yn7tnq.pdf"
-    },
-    {
-        "Ticker":"USL",
-        "CompanyName":"UNICO SILVER LIMITED",
-        "DateTime":"2025-10-23T14:44:05+1100",
-        "Headline":"Change of Director's Interest Notice - Peter Mullens",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qy9mmz0dcyl6.pdf"
-    },
-    {
-        "Ticker":"HUB",
-        "CompanyName":"HUB24 LIMITED",
-        "DateTime":"2025-10-23T14:37:30+1100",
-        "Headline":"Change of Director's Interest Notice - Catherine Kovacs",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qy9d1n4k0jvh.pdf"
-    },
-    {
-        "Ticker":"BOQ",
-        "CompanyName":"BANK OF QUEENSLAND LIMITED.",
-        "DateTime":"2025-10-23T14:31:05+1100",
-        "Headline":"Change of Director's Interest Notice - Karen Penrose",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qy8y9cpwgdtd.pdf"
-    },
-    {
-        "Ticker":"PKY",
-        "CompanyName":"PATHKEY.AI LTD",
-        "DateTime":"2025-10-23T12:45:55+1100",
-        "Headline":"Initial Director's Interest Notice Paul Niardone",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qy5hbcw9txsm.pdf"
-    },
-    {
-        "Ticker":"EOL",
-        "CompanyName":"ENERGY ONE LIMITED",
-        "DateTime":"2025-10-23T12:13:50+1100",
-        "Headline":"Change of Director's Interest Notice - Mike Ryan",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qy3y75d4wwrv.pdf"
-    },
-    {
-        "Ticker":"MYG",
-        "CompanyName":"MAYFIELD GROUP HOLDINGS LIMITED",
-        "DateTime":"2025-10-23T11:43:34+1100",
-        "Headline":"Initial Director's Interest Notice - Henderson",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qy2lq246hj5l.pdf"
-    },
-    {
-        "Ticker":"SRV",
-        "CompanyName":"SERVCORP LIMITED",
-        "DateTime":"2025-10-23T11:39:19+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qy2fp35ns102.pdf"
-    },
-    {
-        "Ticker":"FWD",
-        "CompanyName":"FLEETWOOD LIMITED",
-        "DateTime":"2025-10-23T11:18:04+1100",
-        "Headline":"Change of Director's Interest Notice - B Nicholson",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qy174629hq57.pdf"
-    },
-    {
-        "Ticker":"ARG",
-        "CompanyName":"ARGO INVESTMENTS LIMITED",
-        "DateTime":"2025-10-23T10:26:59+1100",
-        "Headline":"App 3Z - Final Director's Interests Notice - CE Cuffe AO",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qxzk02p7p5sw.pdf"
-    },
-    {
-        "Ticker":"RWC",
-        "CompanyName":"RELIANCE WORLDWIDE CORPORATION LIMITED",
-        "DateTime":"2025-10-23T09:53:19+1100",
-        "Headline":"Change of Director's Interest Notice - Heath Sharp",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qxxj3crmgqch.pdf"
-    },
-    {
-        "Ticker":"GOW",
-        "CompanyName":"GOWING BROS LIMITED",
-        "DateTime":"2025-10-23T08:54:13+1100",
-        "Headline":"Change of Director's Interest Notice John Gowing",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251023\/pdf\/06qxlqf2xhxv9g.pdf"
-    },
-    {
-        "Ticker":"PNT",
-        "CompanyName":"PANTHER METALS LTD",
-        "DateTime":"2025-10-22T19:54:23+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251022\/pdf\/06qx32082jwh03.pdf"
-    },
-    {
-        "Ticker":"PNT",
-        "CompanyName":"PANTHER METALS LTD",
-        "DateTime":"2025-10-22T19:51:13+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251022\/pdf\/06qx2x6fbfqs06.pdf"
-    },
-    {
-        "Ticker":"PNT",
-        "CompanyName":"PANTHER METALS LTD",
-        "DateTime":"2025-10-22T19:29:18+1100",
-        "Headline":"Change of Director's Interest Notice",
-        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251022\/pdf\/06qx22x7fywx80.pdf"
+        "PdfLink":"https:\/\/announcements.asx.com.au\/asxpdf\/20251027\/pdf\/06r23zdjtgjcs0.pdf",
+        "SignalType":"Change"
     }
 ]

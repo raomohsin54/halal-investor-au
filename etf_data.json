@@ -1,3 +1,8 @@
 [
-
+    {
+        "Ticker": "ISLM",
+        "CompanyName": "Hejaz Equities Fund (Managed Fund)",
+        "MER": "0.99%",
+        "ProviderWebsite": "https://www.hejazi.com.au/islamic-etf/"
+    }
 ]

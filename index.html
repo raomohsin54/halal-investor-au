@@ -3,37 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharia-Compliant ETFs - Market Signals AU</title>
-    <!-- Corrected Path -->
+    <title>Market Signals AU - AI-Powered ASX Insights</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <!-- Corrected Paths -->
-        <a href="index.html" class="active">Halal ETFs</a>
-        <a href="insider-trades.html">Insider Trades</a>
+        <a href="index.html" class="active">Home</a>
         <a href="dashboard.html">AI Dashboard</a>
+        <a href="insider-trades.html">Insider Trades</a>
+        <a href="halal-etfs.html">Halal ETFs</a>
     </nav>
-    <header>
-        <h1>Sharia-Compliant ETFs on the ASX</h1>
-        <p>A simple comparison of all Halal ETFs available in Australia.</p>
+    
+    <header class="hero">
+        <div class="container">
+            <h1>Get an Edge on the ASX with AI-Powered Insights</h1>
+            <p>We analyze every director trade to bring you the signals that matter.</p>
+            <a href="dashboard.html" class="cta-button">View Today's Dashboard</a>
+        </div>
     </header>
-    <div class="container">
+
+    <div class="container" id="homepage-container">
+        <h2 class="section-title">Today's Highlights</h2>
+        <div class="dashboard-cards">
+            <div id="top-buy-card" class="card buy"></div>
+            <div id="top-sell-card" class="card sell"></div>
+        </div>
+        
+        <h2 class="section-title">Latest Director Trades</h2>
         <table>
             <thead>
                 <tr>
+                    <th>Date</th>
                     <th>Ticker</th>
-                    <th>Company Name</th>
-                    <th>MER</th>
-                    <th>Provider Website</th>
+                    <th>Company</th>
+                    <th>Signal</th>
+                    <th>Headline</th>
                 </tr>
             </thead>
-            <tbody id="etf-table-body">
-                <!-- Data will be loaded here by JavaScript -->
+            <tbody id="latest-trades-table">
+                <!-- A short list of the latest trades will appear here -->
             </tbody>
         </table>
     </div>
-    <!-- Corrected Path -->
+    
     <script src="script.js"></script>
 </body>
 </html>
