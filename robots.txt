@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marketflows.com.au/sitemap.xml
