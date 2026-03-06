@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-06T07:06:10.981772",
+    "week_ending": "2026-03-06",
+    "stock_count": 19,
+    "screening_standard": "AAOIFI Sharia Standards",
+    "note": "Review quarterly. Sectors excluded: alcohol, tobacco, gambling, weapons, conventional banking."
+  },
+  "stocks": [
+    {
+      "asx_code": "WTC",
+      "name": "WiseTech Global",
+      "sector": "Technology",
+      "notes": "Logistics software, no debt issues",
+      "current_price": 47.57,
+      "weekly_pct": -2.92,
+      "monthly_pct": -7.18,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "XRO",
+      "name": "Xero",
+      "sector": "Technology",
+      "notes": "Accounting software, clean revenue",
+      "current_price": 83.89,
+      "weekly_pct": 1.93,
+      "monthly_pct": 3.8,
+      "momentum": "\ud83d\udcc8 Rising",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "CPU",
+      "name": "Computershare",
+      "sector": "Technology",
+      "notes": "Registry services, passes screening",
+      "current_price": 30.49,
+      "weekly_pct": 0.53,
+      "monthly_pct": -1.87,
+      "momentum": "\u27a1\ufe0f Flat",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "CAR",
+      "name": "CAR Group",
+      "sector": "Technology",
+      "notes": "Auto marketplace, halal revenue",
+      "current_price": 25.75,
+      "weekly_pct": 1.7,
+      "monthly_pct": 0.27,
+      "momentum": "\ud83d\udcc8 Rising",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "REA",
+      "name": "REA Group",
+      "sector": "Technology",
+      "notes": "Property listings, clean model",
+      "current_price": 165.9,
+      "weekly_pct": 4.1,
+      "monthly_pct": -5.96,
+      "momentum": "\ud83d\udd25 Strong",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "CSL",
+      "name": "CSL Limited",
+      "sector": "Healthcare",
+      "notes": "Biotherapeutics, widely halal-approved",
+      "current_price": 146.49,
+      "weekly_pct": 0.32,
+      "monthly_pct": -19.38,
+      "momentum": "\u27a1\ufe0f Flat",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "RMD",
+      "name": "ResMed",
+      "sector": "Healthcare",
+      "notes": "Sleep apnea devices",
+      "current_price": 36.63,
+      "weekly_pct": 2.95,
+      "monthly_pct": 2.74,
+      "momentum": "\ud83d\udcc8 Rising",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "COH",
+      "name": "Cochlear",
+      "sector": "Healthcare",
+      "notes": "Hearing implants, clean revenue",
+      "current_price": 185.0,
+      "weekly_pct": -6.88,
+      "monthly_pct": -28.85,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "FPH",
+      "name": "Fisher & Paykel Healthcare",
+      "sector": "Healthcare",
+      "notes": "Medical devices",
+      "current_price": 34.28,
+      "weekly_pct": -0.61,
+      "monthly_pct": 0.5,
+      "momentum": "\u27a1\ufe0f Flat",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "BHP",
+      "name": "BHP Group",
+      "sector": "Mining",
+      "notes": "Iron ore/copper \u2014 passes debt ratio",
+      "current_price": 55.15,
+      "weekly_pct": -2.7,
+      "monthly_pct": 7.23,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "RIO",
+      "name": "Rio Tinto",
+      "sector": "Mining",
+      "notes": "Diversified miner, passes screening",
+      "current_price": 164.58,
+      "weekly_pct": -0.19,
+      "monthly_pct": 5.57,
+      "momentum": "\u27a1\ufe0f Flat",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "FMG",
+      "name": "Fortescue",
+      "sector": "Mining",
+      "notes": "Iron ore, WA-based, halal-screened",
+      "current_price": 19.39,
+      "weekly_pct": -4.19,
+      "monthly_pct": -7.69,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "MIN",
+      "name": "Mineral Resources",
+      "sector": "Mining",
+      "notes": "Lithium/iron ore, WA-based",
+      "current_price": 56.06,
+      "weekly_pct": -7.28,
+      "monthly_pct": 0.74,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "PLS",
+      "name": "Pilbara Minerals",
+      "sector": "Mining",
+      "notes": "Lithium, WA Pilbara",
+      "current_price": 4.81,
+      "weekly_pct": -8.38,
+      "monthly_pct": 11.09,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "IGO",
+      "name": "IGO Limited",
+      "sector": "Mining",
+      "notes": "Nickel/lithium, WA-based",
+      "current_price": 7.89,
+      "weekly_pct": -11.65,
+      "monthly_pct": -9.93,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "TCL",
+      "name": "Transurban",
+      "sector": "Infrastructure",
+      "notes": "Toll roads, tangible asset backing",
+      "current_price": 14.14,
+      "weekly_pct": -0.42,
+      "monthly_pct": 1.58,
+      "momentum": "\u27a1\ufe0f Flat",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "APA",
+      "name": "APA Group",
+      "sector": "Infrastructure",
+      "notes": "Gas pipelines, asset-backed",
+      "current_price": 9.23,
+      "weekly_pct": 1.88,
+      "monthly_pct": 4.06,
+      "momentum": "\ud83d\udcc8 Rising",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "WES",
+      "name": "Wesfarmers",
+      "sector": "Consumer",
+      "notes": "Bunnings etc \u2014 no alcohol revenue focus",
+      "current_price": 75.57,
+      "weekly_pct": -5.61,
+      "monthly_pct": -9.35,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "JBH",
+      "name": "JB Hi-Fi",
+      "sector": "Consumer",
+      "notes": "Electronics retail, clean revenue",
+      "current_price": 77.3,
+      "weekly_pct": -5.66,
+      "monthly_pct": -4.48,
+      "momentum": "\ud83d\udcc9 Falling",
+      "last_updated": "2026-03-06"
+    }
+  ],
+  "sector_breakdown": {
+    "Mining": 6,
+    "Technology": 5,
+    "Healthcare": 4,
+    "Infrastructure": 2,
+    "Consumer": 2
+  },
+  "top_movers_week": [
+    {
+      "asx_code": "REA",
+      "name": "REA Group",
+      "sector": "Technology",
+      "notes": "Property listings, clean model",
+      "current_price": 165.9,
+      "weekly_pct": 4.1,
+      "monthly_pct": -5.96,
+      "momentum": "\ud83d\udd25 Strong",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "RMD",
+      "name": "ResMed",
+      "sector": "Healthcare",
+      "notes": "Sleep apnea devices",
+      "current_price": 36.63,
+      "weekly_pct": 2.95,
+      "monthly_pct": 2.74,
+      "momentum": "\ud83d\udcc8 Rising",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "XRO",
+      "name": "Xero",
+      "sector": "Technology",
+      "notes": "Accounting software, clean revenue",
+      "current_price": 83.89,
+      "weekly_pct": 1.93,
+      "monthly_pct": 3.8,
+      "momentum": "\ud83d\udcc8 Rising",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "APA",
+      "name": "APA Group",
+      "sector": "Infrastructure",
+      "notes": "Gas pipelines, asset-backed",
+      "current_price": 9.23,
+      "weekly_pct": 1.88,
+      "monthly_pct": 4.06,
+      "momentum": "\ud83d\udcc8 Rising",
+      "last_updated": "2026-03-06"
+    },
+    {
+      "asx_code": "CAR",
+      "name": "CAR Group",
+      "sector": "Technology",
+      "notes": "Auto marketplace, halal revenue",
+      "current_price": 25.75,
+      "weekly_pct": 1.7,
+      "monthly_pct": 0.27,
+      "momentum": "\ud83d\udcc8 Rising",
+      "last_updated": "2026-03-06"
+    }
+  ]
+}
