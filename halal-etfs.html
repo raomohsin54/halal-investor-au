@@ -1,37 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharia-Compliant ETFs - MarketFlows AU</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halal Stock Watchlist — Halal Investor AU</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="dashboard.html">AI Dashboard</a>
-        <a href="insider-trades.html">Insider Trades</a>
-        <a href="halal-etfs.html" class="active">Halal ETFs</a>
-    </nav>
-    <header>
-        <h1>Sharia-Compliant ETFs on the ASX</h1>
-        <p>A simple comparison of all Halal ETFs available in Australia.</p>
-    </header>
-    <div class="container">
-        <table>
-            <thead>
-                <tr>
-                    <th>Ticker</th>
-                    <th>Company Name</th>
-                    <th>MER</th>
-                    <th>Provider Website</th>
-                </tr>
-            </thead>
-            <tbody id="etf-table-body">
-                <!-- Data will be loaded here -->
-            </tbody>
-        </table>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">☽</span>
+      <span class="logo-text">Halal<strong>Investor</strong><span class="logo-au">AU</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">ETF Tracker</a>
+      <a href="halal-etfs.html">Watchlist</a>
+      <a href="insider-trades.html">Insider Trades</a>
     </div>
-    <script src="script.js"></script>
+    <button class="nav-hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<div class="page">
+
+  <div class="section-header" style="margin-top:1rem;">
+    <div>
+      <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:0.5rem;">AAOIFI Screened</div>
+      <h1 class="section-title" style="font-size:2rem;">ASX Halal Stock Watchlist</h1>
+    </div>
+    <div style="display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap;" id="filter-btns">
+      <button class="filter-btn active" data-sector="All">All</button>
+    </div>
+  </div>
+
+  <p style="color:var(--text-dim);font-size:0.875rem;margin-bottom:2rem;line-height:1.6;max-width:700px;">
+    Stocks screened against AAOIFI Sharia standards: no alcohol, tobacco, gambling, weapons or conventional banking revenue.
+    Debt-to-assets below 33%. Updated quarterly.
+  </p>
+
+  <!-- Summary row -->
+  <div id="watchlist-summary" class="stat-row" style="margin-bottom:2rem;"></div>
+
+  <!-- Sector chart + top movers -->
+  <div class="grid-2" style="margin-bottom:2rem;">
+    <div class="chart-wrap fade-in">
+      <div class="chart-title">Sector Breakdown</div>
+      <canvas id="sectorChart" height="200"></canvas>
+    </div>
+    <div class="chart-wrap fade-in">
+      <div class="chart-title">Top 5 Movers This Week (%)</div>
+      <canvas id="moversChart" height="200"></canvas>
+    </div>
+  </div>
+
+  <!-- Stock table -->
+  <div style="background:var(--navy);border:1px solid var(--navy3);border-radius:var(--radius);overflow:hidden;">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Code</th><th>Company</th><th>Sector</th>
+          <th class="num">Price</th>
+          <th class="num">Week %</th>
+          <th class="num">Month %</th>
+          <th>Momentum</th>
+          <th>Sharia Note</th>
+        </tr>
+      </thead>
+      <tbody id="watchlist-tbody"></tbody>
+    </table>
+  </div>
+
+  <div style="margin-top:1.5rem;padding:1.25rem;background:var(--navy2);border:1px solid var(--gold-border);border-radius:var(--radius-sm);">
+    <p style="font-size:0.8rem;color:var(--text-dim);line-height:1.7;">
+      <strong style="color:var(--gold);">Screening Methodology:</strong>
+      Stocks are assessed against AAOIFI Sharia Standard No. 21.
+      Excluded sectors: conventional banking & insurance, alcohol, tobacco, pork products, gambling, weapons.
+      Financial ratio screens: interest-bearing debt &lt; 33% of total assets, haram income &lt; 5% of total revenue.
+      This list is reviewed quarterly. It does not constitute financial advice.
+    </p>
+  </div>
+
+</div>
+<footer class="footer">
+  <p>Halal Investor AU · AAOIFI-screened watchlist · Not financial advice</p>
+</footer>
+
+<style>
+.filter-btn {
+  padding:0.4rem 1rem; border-radius:100px; font-size:0.78rem;
+  border:1px solid var(--navy3); background:var(--navy2);
+  color:var(--text-dim); cursor:pointer; transition:all 0.2s;
+}
+.filter-btn.active, .filter-btn:hover {
+  border-color:var(--gold-border); color:var(--gold); background:var(--gold-dim);
+}
+</style>
+
+<script>
+Chart.defaults.color = '#8a8fa8';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.06)';
+Chart.defaults.font.family = 'DM Sans, sans-serif';
+Chart.defaults.font.size = 11;
+
+let allStocks = [];
+
+function renderTable(stocks) {
+  document.getElementById('watchlist-tbody').innerHTML = stocks.map(s => `
+    <tr>
+      <td><strong>${s.asx_code}</strong></td>
+      <td style="color:var(--text-dim);font-size:0.82rem;">${s.name}</td>
+      <td><span class="badge badge-dim">${s.sector}</span></td>
+      <td class="num">$${s.current_price?.toFixed(2)||'—'}</td>
+      <td class="num ${s.weekly_pct>=0?'pos':'neg'}">${s.weekly_pct>=0?'+':''}${s.weekly_pct?.toFixed(2)}%</td>
+      <td class="num ${s.monthly_pct>=0?'pos':'neg'}">${s.monthly_pct>=0?'+':''}${s.monthly_pct?.toFixed(2)}%</td>
+      <td>${s.momentum||'—'}</td>
+      <td style="font-size:0.75rem;color:var(--text-muted);max-width:180px;">${s.notes||''}</td>
+    </tr>
+  `).join('');
+}
+
+async function loadWatchlist() {
+  try {
+    const data = await fetch('halal_watchlist.json').then(r=>r.json());
+    allStocks = data.stocks || [];
+    const sectors = data.sector_breakdown || {};
+    const meta = data.metadata || {};
+
+    // Summary
+    const rising = allStocks.filter(s=>s.weekly_pct>0).length;
+    const falling = allStocks.filter(s=>s.weekly_pct<=0).length;
+    const avgW = (allStocks.reduce((s,x)=>s+x.weekly_pct,0)/allStocks.length).toFixed(2);
+    document.getElementById('watchlist-summary').innerHTML = `
+      <div class="stat-pill"><span class="stat-pill-label">Stocks</span><span class="stat-pill-value">${allStocks.length}</span></div>
+      <div class="stat-pill"><span class="stat-pill-label">Rising</span><span class="stat-pill-value pos">${rising}</span></div>
+      <div class="stat-pill"><span class="stat-pill-label">Falling</span><span class="stat-pill-value neg">${falling}</span></div>
+      <div class="stat-pill"><span class="stat-pill-label">Avg Week</span><span class="stat-pill-value ${avgW>=0?'pos':'neg'}">${avgW>=0?'+':''}${avgW}%</span></div>
+      <div class="stat-pill"><span class="stat-pill-label">Updated</span><span class="stat-pill-value">${meta.week_ending||'—'}</span></div>
+    `;
+
+    // Filter buttons
+    const uniqueSectors = ['All', ...Object.keys(sectors)];
+    document.getElementById('filter-btns').innerHTML = uniqueSectors.map(s =>
+      `<button class="filter-btn ${s==='All'?'active':''}" data-sector="${s}">${s}</button>`
+    ).join('');
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+        const sec = btn.dataset.sector;
+        renderTable(sec==='All' ? allStocks : allStocks.filter(s=>s.sector===sec));
+      });
+    });
+
+    renderTable(allStocks);
+
+    // Sector doughnut
+    const COLORS = ['#c9a84c','#2ecc8a','#3b82f6','#e05c6a','#a78bfa','#f97316'];
+    new Chart(document.getElementById('sectorChart'), {
+      type:'doughnut',
+      data:{
+        labels: Object.keys(sectors),
+        datasets:[{ data:Object.values(sectors), backgroundColor:COLORS, borderWidth:0 }]
+      },
+      options:{ responsive:true, plugins:{ legend:{position:'right'} } }
+    });
+
+    // Top movers bar
+    const top5 = [...allStocks].sort((a,b)=>b.weekly_pct-a.weekly_pct).slice(0,5);
+    new Chart(document.getElementById('moversChart'), {
+      type:'bar',
+      data:{
+        labels: top5.map(s=>s.asx_code),
+        datasets:[{ data:top5.map(s=>s.weekly_pct),
+          backgroundColor:top5.map(s=>s.weekly_pct>=0?'rgba(46,204,138,0.8)':'rgba(224,92,106,0.8)'),
+          borderRadius:4 }]
+      },
+      options:{ responsive:true, plugins:{legend:{display:false}},
+        scales:{y:{title:{display:true,text:'Week %'}}} }
+    });
+
+  } catch(err) {
+    console.error(err);
+  }
+}
+loadWatchlist();
+</script>
 </body>
 </html>
