@@ -1,66 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MarketFlows AU - AI-Powered ASX Insights</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halal Investor AU — Sharia-Compliant ASX Intelligence</title>
+  <meta name="description" content="Australia's only weekly data tracker for Sharia-compliant ASX investments. ETF performance, halal stock watchlist, insider trades.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="dashboard.html">AI Dashboard</a>
-        <a href="insider-trades.html">Insider Trades</a>
-        <a href="halal-etfs.html">Halal ETFs</a>
-    </nav>
-    
-    <header class="hero">
-        <div class="container">
-            <h1>Get an Edge on the ASX with AI-Powered Insights</h1>
-            <p>We analyze every director trade to bring you the signals that matter.</p>
-            <a href="dashboard.html" class="cta-button">View Today's Dashboard</a>
-        </div>
-    </header>
 
-    <div class="container" id="homepage-container">
-        <h2 class="section-title">This Week's Highlights</h2>
-        <div class="dashboard-cards">
-            <div id="top-buy-card" class="card buy"></div>
-            <div id="top-sell-card" class="card sell"></div>
-        </div>
-        
-        <h2 class="section-title">Latest Director Trades</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Ticker</th>
-                    <th>Company</th>
-                    <th>Signal</th>
-                    <th>Headline</th>
-                </tr>
-            </thead>
-            <tbody id="latest-trades-table">
-                <!-- A short list of the latest trades will appear here -->
-            </tbody>
-        </table>
-
-        <!-- ================================================================= -->
-        <!-- NEW NETLIFY SIGNUP FORM SECTION                                   -->
-        <!-- ================================================================= -->
-        <div class="pro-signup-section">
-            <h2>Get Real-Time Alerts (Coming Soon)</h2>
-            <p>Sign up to get notified when our "Pro" features launch, including real-time email alerts and personalized watchlists.</p>
-            
-            <!-- This is the Netlify-powered form. It's just simple HTML. -->
-            <form name="pro-signup" method="POST" data-netlify="true">
-                <input type="email" name="email" placeholder="Enter your email address" required>
-                <button type="submit">Notify Me</button>
-            </form>
-        </div>
-
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">☽</span>
+      <span class="logo-text">Halal<strong>Investor</strong><span class="logo-au">AU</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">ETF Tracker</a>
+      <a href="halal-etfs.html">Watchlist</a>
+      <a href="insider-trades.html">Insider Trades</a>
     </div>
-    
-    <script src="script.js"></script>
+    <button class="nav-hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-eyebrow">Australia's Halal Investment Intelligence</div>
+  <h1>Invest with<br>Conviction & Clarity</h1>
+  <p class="hero-sub">
+    Weekly data on Sharia-compliant ASX ETFs, halal stocks, and insider trading signals —
+    built for Australia's 813,000 Muslim investors.
+  </p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="dashboard.html" class="btn-primary">View ETF Tracker →</a>
+    <a href="halal-etfs.html" class="btn-secondary">Halal Watchlist</a>
+  </div>
+</section>
+
+<div class="page">
+
+  <!-- Live summary stats -->
+  <div id="summary-stats" class="stat-row" style="justify-content:center;margin-bottom:3rem;">
+    <div class="loading"><div class="spinner"></div> Loading live data...</div>
+  </div>
+
+  <!-- ETF Performance Preview -->
+  <div class="section-header fade-in">
+    <h2 class="section-title">This Week's ETF Performance</h2>
+    <span class="section-meta" id="etf-updated"></span>
+  </div>
+  <div id="etf-cards" class="grid-5" style="margin-bottom:3rem;">
+    <div class="loading"><div class="spinner"></div></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Top movers -->
+  <div class="section-header fade-in">
+    <h2 class="section-title">Top Halal Stock Movers</h2>
+    <a href="halal-etfs.html" style="font-size:0.8rem;color:var(--gold);text-decoration:none;">View all →</a>
+  </div>
+  <div id="top-movers" class="grid-3" style="margin-bottom:3rem;">
+    <div class="loading"><div class="spinner"></div></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Why section -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;padding:2rem 0;" class="fade-in">
+    <div>
+      <div style="font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Why Halal Investor AU</div>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:600;line-height:1.2;margin-bottom:1.5rem;">
+        The data gap no one was filling
+      </h2>
+      <p style="color:var(--text-dim);line-height:1.8;margin-bottom:1rem;">
+        Australia has 813,000 Muslims — yet there was no single place to track
+        how Sharia-compliant investments were performing week to week.
+      </p>
+      <p style="color:var(--text-dim);line-height:1.8;">
+        We pull live ASX data every week and filter it through an Islamic finance lens:
+        halal ETFs, AAOIFI-screened stocks, and director trade signals.
+      </p>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+      <div class="card fade-in" style="text-align:center;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:var(--gold);font-weight:600;">5</div>
+        <div style="font-size:0.8rem;color:var(--text-dim);margin-top:0.25rem;">Halal ETFs tracked</div>
+      </div>
+      <div class="card fade-in" style="text-align:center;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:var(--gold);font-weight:600;">19</div>
+        <div style="font-size:0.8rem;color:var(--text-dim);margin-top:0.25rem;">Screened ASX stocks</div>
+      </div>
+      <div class="card fade-in" style="text-align:center;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:var(--gold);font-weight:600;">813k</div>
+        <div style="font-size:0.8rem;color:var(--text-dim);margin-top:0.25rem;">Australian Muslims</div>
+      </div>
+      <div class="card fade-in" style="text-align:center;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:var(--gold);font-weight:600;">Weekly</div>
+        <div style="font-size:0.8rem;color:var(--text-dim);margin-top:0.25rem;">Data refresh</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div style="margin-bottom:0.5rem;">
+    <span class="logo-mark" style="color:var(--gold);">☽</span>
+    <strong style="color:var(--text);">Halal Investor AU</strong>
+  </div>
+  <p>Data sourced from ASX & Yahoo Finance. Updated weekly. Not financial advice.</p>
+  <p style="margin-top:0.5rem;">For Islamic finance home loan info: <a href="#">MCCA</a> · <a href="#">Hejaz</a></p>
+</footer>
+
+<style>
+.btn-primary {
+  display:inline-block; padding:0.875rem 2rem;
+  background:var(--gold); color:var(--midnight);
+  border-radius:100px; text-decoration:none;
+  font-weight:500; font-size:0.9rem; letter-spacing:0.02em;
+  transition:all 0.2s; box-shadow:0 4px 20px rgba(201,168,76,0.3);
+}
+.btn-primary:hover { background:var(--gold-light); transform:translateY(-1px); }
+.btn-secondary {
+  display:inline-block; padding:0.875rem 2rem;
+  border:1px solid var(--gold-border); color:var(--gold);
+  border-radius:100px; text-decoration:none;
+  font-weight:400; font-size:0.9rem;
+  transition:all 0.2s;
+}
+.btn-secondary:hover { background:var(--gold-dim); }
+</style>
+
+<script>
+async function loadIndex() {
+  try {
+    const [etfData, watchData] = await Promise.all([
+      fetch('etf_performance.json').then(r=>r.json()),
+      fetch('halal_watchlist.json').then(r=>r.json())
+    ]);
+
+    const etfs = etfData.etfs || [];
+    const benchmark = etfData.benchmark;
+    const stocks = watchData.stocks || [];
+    const meta = etfData.metadata || {};
+
+    // Summary stats
+    const avgWeekly = etfs.length ? (etfs.reduce((s,e)=>s+e.weekly_pct,0)/etfs.length).toFixed(2) : 0;
+    const bestETF = etfs.length ? etfs.reduce((a,b)=>a.weekly_pct>b.weekly_pct?a:b) : null;
+    const benchW = benchmark ? benchmark.weekly_pct.toFixed(2) : 'N/A';
+    const vsB = bestETF && benchmark ? (avgWeekly - benchmark.weekly_pct).toFixed(2) : null;
+
+    document.getElementById('summary-stats').innerHTML = `
+      <div class="stat-pill"><span class="stat-pill-label">ETFs Avg Week</span><span class="stat-pill-value ${avgWeekly>=0?'pos':'neg'}">${avgWeekly>=0?'+':''}${avgWeekly}%</span></div>
+      <div class="stat-pill"><span class="stat-pill-label">ASX 200</span><span class="stat-pill-value">${benchW>=0?'+':''}${benchW}%</span></div>
+      ${vsB!==null?`<div class="stat-pill"><span class="stat-pill-label">vs Benchmark</span><span class="stat-pill-value ${vsB>=0?'pos':'neg'}">${vsB>=0?'+':''}${vsB}%</span></div>`:''}
+      <div class="stat-pill"><span class="stat-pill-label">Updated</span><span class="stat-pill-value">${meta.week_ending||'—'}</span></div>
+      <div class="stat-pill"><span class="stat-pill-label">Stocks Tracked</span><span class="stat-pill-value">${stocks.length}</span></div>
+    `;
+
+    // ETF cards
+    document.getElementById('etf-updated').textContent = meta.week_ending ? `Week ending ${meta.week_ending}` : '';
+    document.getElementById('etf-cards').innerHTML = etfs.map((e,i) => `
+      <div class="card fade-in" style="animation-delay:${i*0.07}s">
+        <div class="card-label">${e.type||'ETF'}</div>
+        <div style="font-size:1.2rem;font-weight:600;color:var(--text);margin-bottom:0.25rem;">${e.asx_code}</div>
+        <div style="font-size:0.75rem;color:var(--text-dim);margin-bottom:1rem;line-height:1.4;">${e.name.replace('Hejaz ','').replace(' Active ETF','').replace(' Fund','')}</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;margin-bottom:0.5rem;">$${e.current_price.toFixed(3)}</div>
+        <div class="badge ${e.weekly_pct>=0?'badge-green':'badge-red'}">${e.weekly_pct>=0?'▲':'▼'} ${Math.abs(e.weekly_pct)}% wk</div>
+        <div style="margin-top:0.5rem;font-size:0.75rem;color:var(--text-muted);">MER ${e.mer||'—'}</div>
+      </div>
+    `).join('');
+
+    // Top movers
+    const topStocks = [...stocks].sort((a,b)=>b.weekly_pct-a.weekly_pct).slice(0,3);
+    document.getElementById('top-movers').innerHTML = topStocks.map((s,i) => `
+      <div class="card fade-in" style="animation-delay:${i*0.1}s;display:flex;flex-direction:column;gap:0.75rem;">
+        <div style="display:flex;justify-content:space-between;align-items:start;">
+          <div>
+            <div style="font-size:1.1rem;font-weight:600;">${s.asx_code}</div>
+            <div style="font-size:0.8rem;color:var(--text-dim);">${s.name}</div>
+          </div>
+          <span class="badge badge-dim">${s.sector}</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:600;">$${s.current_price.toFixed(2)}</span>
+          <span class="badge ${s.weekly_pct>=0?'badge-green':'badge-red'}">${s.weekly_pct>=0?'+':''}${s.weekly_pct}%</span>
+        </div>
+        <div style="font-size:0.75rem;color:var(--text-muted);">☑ AAOIFI Sharia Screened</div>
+      </div>
+    `).join('');
+
+  } catch(e) {
+    console.error(e);
+    document.getElementById('summary-stats').innerHTML = '<div class="empty"><div class="empty-icon">⚠️</div>Could not load live data</div>';
+  }
+}
+loadIndex();
+</script>
 </body>
 </html>

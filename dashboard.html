@@ -1,41 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Insider Dashboard - MarketFlows AU</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETF Tracker — Halal Investor AU</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="dashboard.html" class="active">AI Dashboard</a>
-        <a href="insider-trades.html">Insider Trades</a>
-        <a href="halal-etfs.html">Halal ETFs</a>
-    </nav>
-    <header>
-        <h1>This Week's AI-Powered Insider Activity</h1>
-        <p id="last-updated">An AI-powered summary of the most significant director trades from the past 7 days...</p>
-    </header>
-    <div class="container" id="dashboard-container">
-        <div class="dashboard-cards">
-            <div id="top-buy-card" class="card buy"></div>
-            <div id="top-sell-card" class="card sell"></div>
-        </div>
-        <h2>Recently Analyzed Trades</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Ticker</th>
-                    <th>Director Name</th>
-                    <th>Trade Type</th>
-                    <th>Value</th>
-                    <th>Announcement</th>
-                </tr>
-            </thead>
-            <tbody id="recent-trades-table"></tbody>
-        </table>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">☽</span>
+      <span class="logo-text">Halal<strong>Investor</strong><span class="logo-au">AU</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">ETF Tracker</a>
+      <a href="halal-etfs.html">Watchlist</a>
+      <a href="insider-trades.html">Insider Trades</a>
     </div>
-    <script src="script.js"></script>
+    <button class="nav-hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<div class="page">
+
+  <div class="section-header" style="margin-top:1rem;">
+    <div>
+      <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:0.5rem;">Live Data</div>
+      <h1 class="section-title" style="font-size:2rem;">Halal ETF Performance Tracker</h1>
+    </div>
+    <div style="text-align:right;">
+      <div id="last-updated" style="font-size:0.8rem;color:var(--text-muted);"></div>
+      <div style="font-size:0.75rem;color:var(--text-muted);margin-top:0.25rem;">Source: ASX via Yahoo Finance</div>
+    </div>
+  </div>
+
+  <!-- Benchmark bar -->
+  <div id="benchmark-bar" style="background:var(--navy2);border:1px solid var(--navy3);border-radius:var(--radius-sm);padding:0.875rem 1.25rem;margin-bottom:2rem;display:flex;align-items:center;gap:2rem;flex-wrap:wrap;"></div>
+
+  <!-- ETF Cards -->
+  <div id="etf-cards" class="grid-5" style="margin-bottom:2.5rem;"></div>
+
+  <!-- Performance Chart -->
+  <div class="chart-wrap fade-in">
+    <div class="chart-title">30-Day Normalised Performance (Base = 100)</div>
+    <canvas id="perfChart" height="80"></canvas>
+  </div>
+
+  <!-- Weekly Bar Chart -->
+  <div class="grid-2" style="margin-bottom:2rem;">
+    <div class="chart-wrap fade-in">
+      <div class="chart-title">Weekly Return (%)</div>
+      <canvas id="weeklyChart" height="160"></canvas>
+    </div>
+    <div class="chart-wrap fade-in">
+      <div class="chart-title">Monthly Return (%)</div>
+      <canvas id="monthlyChart" height="160"></canvas>
+    </div>
+  </div>
+
+  <!-- Detail Table -->
+  <div class="section-header fade-in">
+    <h2 class="section-title">Full ETF Details</h2>
+  </div>
+  <div style="background:var(--navy);border:1px solid var(--navy3);border-radius:var(--radius);overflow:hidden;margin-bottom:2rem;">
+    <table class="data-table" id="etf-table">
+      <thead>
+        <tr>
+          <th>ETF</th><th>Name</th><th>Type</th>
+          <th class="num">Price (AUD)</th>
+          <th class="num">Week %</th>
+          <th class="num">Month %</th>
+          <th class="num">QTD %</th>
+          <th class="num">52W High</th>
+          <th>Signal</th><th class="num">MER</th>
+        </tr>
+      </thead>
+      <tbody id="etf-tbody"></tbody>
+    </table>
+  </div>
+
+  <p style="font-size:0.75rem;color:var(--text-muted);text-align:center;">
+    ⚠️ This is not financial advice. Past performance does not guarantee future results. Data updated weekly.
+  </p>
+</div>
+
+<footer class="footer">
+  <p>Halal Investor AU · Data: ASX via Yahoo Finance · Updated weekly · Not financial advice</p>
+</footer>
+
+<script>
+const CHART_COLORS = ['#c9a84c','#2ecc8a','#3b82f6','#e05c6a','#a78bfa'];
+const BENCH_COLOR  = 'rgba(138,143,168,0.7)';
+
+Chart.defaults.color = '#8a8fa8';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.06)';
+Chart.defaults.font.family = 'DM Sans, sans-serif';
+Chart.defaults.font.size = 11;
+
+async function loadDashboard() {
+  try {
+    const data = await fetch('etf_performance.json').then(r=>r.json());
+    const etfs = data.etfs || [];
+    const bench = data.benchmark;
+    const meta  = data.metadata || {};
+
+    document.getElementById('last-updated').textContent = `Week ending ${meta.week_ending||'—'}`;
+
+    // Benchmark bar
+    if (bench) {
+      document.getElementById('benchmark-bar').innerHTML = `
+        <span style="font-size:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;">ASX 200 Benchmark (IOZ)</span>
+        <span style="font-weight:500;">${bench.current_price?.toFixed(3)||'—'}</span>
+        <span class="${bench.weekly_pct>=0?'pos':'neg'}">${bench.weekly_pct>=0?'+':''}${bench.weekly_pct?.toFixed(2)}% wk</span>
+        <span class="${bench.monthly_pct>=0?'pos':'neg'}">${bench.monthly_pct>=0?'+':''}${bench.monthly_pct?.toFixed(2)}% mo</span>
+        <span style="font-size:0.75rem;color:var(--text-muted);margin-left:auto;">Compare halal ETFs against this line</span>
+      `;
+    }
+
+    // ETF Cards
+    document.getElementById('etf-cards').innerHTML = etfs.map((e,i) => {
+      const vsBench = bench ? (e.weekly_pct - bench.weekly_pct).toFixed(2) : null;
+      return `
+        <div class="card fade-in">
+          <div class="card-label">${e.type||''}</div>
+          <div style="font-size:1.3rem;font-weight:700;color:var(--text);">${e.asx_code}</div>
+          <div style="font-size:0.72rem;color:var(--text-dim);margin:.2rem 0 1rem;line-height:1.4;">${e.name}</div>
+          <div style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:600;">$${e.current_price?.toFixed(3)||'—'}</div>
+          <div style="display:flex;gap:.5rem;margin-top:.5rem;flex-wrap:wrap;">
+            <span class="badge ${e.weekly_pct>=0?'badge-green':'badge-red'}">${e.weekly_pct>=0?'▲':'▼'}${Math.abs(e.weekly_pct)}% wk</span>
+            <span class="badge ${e.monthly_pct>=0?'badge-green':'badge-red'}">${e.monthly_pct>=0?'▲':'▼'}${Math.abs(e.monthly_pct)}% mo</span>
+          </div>
+          ${vsBench!==null?`<div style="font-size:.72rem;color:var(--text-muted);margin-top:.75rem;">vs ASX 200: <span class="${vsBench>=0?'pos':'neg'}">${vsBench>=0?'+':''}${vsBench}%</span></div>`:''}
+        </div>
+      `;
+    }).join('');
+
+    // Table
+    document.getElementById('etf-tbody').innerHTML = etfs.map(e => `
+      <tr>
+        <td><strong>${e.asx_code}</strong></td>
+        <td style="color:var(--text-dim);font-size:0.8rem;">${e.name}</td>
+        <td><span class="badge badge-dim">${e.type||'—'}</span></td>
+        <td class="num">$${e.current_price?.toFixed(4)||'—'}</td>
+        <td class="num ${e.weekly_pct>=0?'pos':'neg'}">${e.weekly_pct>=0?'+':''}${e.weekly_pct?.toFixed(2)}%</td>
+        <td class="num ${e.monthly_pct>=0?'pos':'neg'}">${e.monthly_pct>=0?'+':''}${e.monthly_pct?.toFixed(2)}%</td>
+        <td class="num ${e.qtd_pct>=0?'pos':'neg'}">${e.qtd_pct>=0?'+':''}${e.qtd_pct?.toFixed(2)}%</td>
+        <td class="num">$${e.high_52w?.toFixed(4)||'—'}</td>
+        <td>${e.signal||'—'}</td>
+        <td class="num">${e.mer||'—'}</td>
+      </tr>
+    `).join('');
+
+    // Line Chart (normalised)
+    const allDates = etfs[0]?.price_history?.map(h=>h.date) || [];
+    const lineDatasets = etfs.map((e,i) => ({
+      label: e.asx_code,
+      data: e.price_history?.map(h => {
+        const base = e.price_history[0]?.price || 1;
+        return +((h.price/base)*100).toFixed(2);
+      }) || [],
+      borderColor: CHART_COLORS[i],
+      backgroundColor: 'transparent',
+      borderWidth: 2, pointRadius: 0, tension: 0.3,
+    }));
+    if (bench?.price_history) {
+      lineDatasets.push({
+        label: 'IOZ (ASX 200)',
+        data: bench.price_history.map(h=>{const b=bench.price_history[0]?.price||1;return+((h.price/b)*100).toFixed(2)}),
+        borderColor: BENCH_COLOR, backgroundColor:'transparent',
+        borderWidth:1.5, borderDash:[4,4], pointRadius:0, tension:0.3,
+      });
+    }
+    new Chart(document.getElementById('perfChart'), {
+      type:'line',
+      data:{ labels: allDates, datasets: lineDatasets },
+      options:{ responsive:true, plugins:{ legend:{position:'top'} },
+        scales:{ y:{ title:{display:true,text:'Normalised (base=100)'} } } }
+    });
+
+    // Bar charts
+    const labels = etfs.map(e=>e.asx_code);
+    const wColors = etfs.map(e=>e.weekly_pct>=0?'rgba(46,204,138,0.8)':'rgba(224,92,106,0.8)');
+    const mColors = etfs.map(e=>e.monthly_pct>=0?'rgba(46,204,138,0.8)':'rgba(224,92,106,0.8)');
+
+    new Chart(document.getElementById('weeklyChart'), {
+      type:'bar',
+      data:{ labels, datasets:[{ data:etfs.map(e=>e.weekly_pct), backgroundColor:wColors, borderRadius:4 }] },
+      options:{ responsive:true, plugins:{legend:{display:false}},
+        scales:{ y:{ title:{display:true,text:'%'} } } }
+    });
+    new Chart(document.getElementById('monthlyChart'), {
+      type:'bar',
+      data:{ labels, datasets:[{ data:etfs.map(e=>e.monthly_pct), backgroundColor:mColors, borderRadius:4 }] },
+      options:{ responsive:true, plugins:{legend:{display:false}},
+        scales:{ y:{ title:{display:true,text:'%'} } } }
+    });
+
+  } catch(err) {
+    console.error(err);
+    document.getElementById('etf-cards').innerHTML = '<div class="empty" style="grid-column:1/-1"><div class="empty-icon">⚠️</div>Failed to load ETF data</div>';
+  }
+}
+loadDashboard();
+</script>
 </body>
 </html>
